@@ -1,54 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/420-111/1-introduction/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/1-introduction/index.html</loc>
     <lastmod>2026-01-14T13:11:43-05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/2-fondamentaux/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/3-fonctions/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/3-fonctions/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/4-regle/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/4-regle/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/5-structure-de-controle/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/6-collections-de-donnees/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/7-lecture-ecriture-fichier/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/7-lecture-ecriture-fichier/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/8-numpy/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/8-numpy/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/9-bibliotheque/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/9-bibliotheque/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/10-matplotlib/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/10-matplotlib/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/11-scipy/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/11-scipy/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/12-sciences/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/12-sciences/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/1-introduction/ordis/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/1-introduction/ordis/index.html</loc>
     <lastmod>2026-01-14T13:11:43-05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/index.html</loc>
     <lastmod>2026-01-14T13:11:43-05:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/categories/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/categories/index.html</loc>
   </url>
   <url>
-    <loc>http://localhost:1313/420-111/tags/index.html</loc>
+    <loc>http://localhost:1313/420-SN1-RE/tags/index.html</loc>
   </url>
 </urlset>

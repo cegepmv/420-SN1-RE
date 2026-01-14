@@ -2,18 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introduction :: Introduction à la programmation</title>
-    <link>http://localhost:1313/420-111/1-introduction/index.html</link>
-    <description>This is a new chapter.kjk</description>
+    <link>http://localhost:1313/420-SN1-RE/1-introduction/index.html</link>
+    <description>Python est le langage n°1 en 2026 selon l’indice TIOBE, devançant tous ses concurrents grâce à sa polyvalence. Python est multiplateforme : Il fonctionne parfaitement sur Windows, macOS, Linux, et même sur des microcontrôleurs (comme le Raspberry Pi ou l’ESP32). Une syntaxe ultra-simple : Contrairement à Java ou C++, Python se lit presque comme de l’anglais. C’est le langage idéal pour débuter car il nécessite moins de lignes de code pour accomplir la même tâche. Polyvalence extrême : Que vous fassiez de l’intelligence artificielle, du web ou de la finance, Python possède une bibliothèque pour tout. Domaines d’utilisation : Intelligence Artificielle &amp; Data Science : Le leader absolu (TensorFlow, PyTorch, Pandas). Développement Web : Création de sites robustes avec Django ou Flask. Automatisation : Idéal pour créer des scripts qui automatisent des tâches répétitives. Calcul scientifique : Utilisé par les chercheurs et ingénieurs du monde entier. Cybersécurité : Outil de prédilection pour le hacking éthique et l’analyse de réseaux. Qu’est-ce que Python ? Python est un langage de programmation interprété, orienté objet et de haut niveau. Sa philosophie repose sur la lisibilité du code. Contrairement à Java qui doit être compilé en “bytecode”, Python est exécuté ligne par ligne par un interpréteur, ce qui rend le cycle de développement et de test beaucoup plus rapide pour le développeur.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate>Wed, 14 Jan 2026 13:11:43 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/420-111/1-introduction/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/420-SN1-RE/1-introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ordis</title>
-      <link>http://localhost:1313/420-111/1-introduction/ordis/index.html</link>
+      <link>http://localhost:1313/420-SN1-RE/1-introduction/ordis/index.html</link>
       <pubDate>Wed, 14 Jan 2026 13:11:43 -0500</pubDate>
-      <guid>http://localhost:1313/420-111/1-introduction/ordis/index.html</guid>
-      <description></description>
+      <guid>http://localhost:1313/420-SN1-RE/1-introduction/ordis/index.html</guid>
+      <description>Voici un Laboratoire que nous faisons en technique de l’informatique, mais que nous n’avons pas le temps de faire en SN. Nous regarderons simplement les photos pour apprendre à reconnaitre les pièces d’un ordinateur.&#xA;Le capot Le capot d’un ordinateur est la partie externe du boîtier qui sert de protection. Il recouvre les composants internes (carte mère, disque dur, etc.) et peut être retiré pour permettre l’entretien ou les modifications du matériel.</description>
+    </item>
+    <item>
+      <title>VSCode</title>
+      <link>http://localhost:1313/420-SN1-RE/1-introduction/vscode/index.html</link>
+      <pubDate>Thu, 28 Aug 2025 21:15:14 -0400</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/1-introduction/vscode/index.html</guid>
+      <description>Installation Lien d’instalation&#xA;Installation des extensions** Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Python et installez l’extension. Racourci clavier utilie Je n’ai pas testé la version Mac.&#xA;🖱️ Raccourcis de base Action Windows/Linux Mac Copier Ctrl + C Cmd (⌘) + C Coller Ctrl + V Cmd (⌘) + V Annuler (Undo) Ctrl + Z Cmd (⌘) + Z 🔍 Édition avancée Action Windows/Linux Mac Sélectionner prochaine occurrence Ctrl + D Cmd (⌘) + D Ajouter plusieurs curseurs (haut/bas) Ctrl + Alt + ↑ / ↓ Option (⌥) + Cmd (⌘) + ↑ / ↓ Copier ligne vers le haut ou le bas Shift + Alt + ↑ / ↓ Shift + Option (⌥) + ↑ / ↓ Commenter rapidement des lignes ctrl + é *Il est possible que ces raccourcis soient différents selon la configuration du clavier que vous utiliser, mais je vous assure que ces fonctions existent! Il vous suffi de les trouver.</description>
     </item>
   </channel>
 </rss>
