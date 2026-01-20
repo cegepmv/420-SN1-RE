@@ -15,7 +15,7 @@ type = "home"
 ***
 
 ## Horaire et disponibilités des enseignants
-:heavy_check_mark: Maxime Fournier  : <a href="/420-SN1-RE/horaireAut2025.pdf" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
+:heavy_check_mark: Maxime Fournier  : <a href="/420-SN1-RE/horaire_Maxime-hiv2026.pdf" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
 
 :heavy_check_mark: Philip Higgins  : <a href="/420-SN1-RE/horaire_Samuel_Aut2025.pdf" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
 

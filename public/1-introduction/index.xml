@@ -6,7 +6,7 @@
     <description>Python est le langage n°1 en 2026 selon l’indice TIOBE, devançant tous ses concurrents grâce à sa polyvalence. Python est multiplateforme : Il fonctionne parfaitement sur Windows, macOS, Linux, et même sur des microcontrôleurs (comme le Raspberry Pi ou l’ESP32). Une syntaxe ultra-simple : Contrairement à Java ou C++, Python se lit presque comme de l’anglais. C’est le langage idéal pour débuter car il nécessite moins de lignes de code pour accomplir la même tâche. Polyvalence extrême : Que vous fassiez de l’intelligence artificielle, du web ou de la finance, Python possède une bibliothèque pour tout. Domaines d’utilisation : Intelligence Artificielle &amp; Data Science : Le leader absolu (TensorFlow, PyTorch, Pandas). Développement Web : Création de sites robustes avec Django ou Flask. Automatisation : Idéal pour créer des scripts qui automatisent des tâches répétitives. Calcul scientifique : Utilisé par les chercheurs et ingénieurs du monde entier. Cybersécurité : Outil de prédilection pour le hacking éthique et l’analyse de réseaux. Qu’est-ce que Python ? Python est un langage de programmation interprété, orienté objet et de haut niveau. Sa philosophie repose sur la lisibilité du code. Contrairement à Java qui doit être compilé en “bytecode”, Python est exécuté ligne par ligne par un interpréteur, ce qui rend le cycle de développement et de test beaucoup plus rapide pour le développeur.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Wed, 14 Jan 2026 13:11:43 -0500</lastBuildDate>
+    <lastBuildDate>Tue, 20 Jan 2026 11:04:07 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/420-SN1-RE/1-introduction/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ordis</title>
@@ -20,7 +20,14 @@
       <link>http://localhost:1313/420-SN1-RE/1-introduction/vscode/index.html</link>
       <pubDate>Thu, 28 Aug 2025 21:15:14 -0400</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/1-introduction/vscode/index.html</guid>
-      <description>Installation Lien d’instalation&#xA;Installation des extensions** Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Python et installez l’extension. Racourci clavier utilie Je n’ai pas testé la version Mac.&#xA;🖱️ Raccourcis de base Action Windows/Linux Mac Copier Ctrl + C Cmd (⌘) + C Coller Ctrl + V Cmd (⌘) + V Annuler (Undo) Ctrl + Z Cmd (⌘) + Z 🔍 Édition avancée Action Windows/Linux Mac Sélectionner prochaine occurrence Ctrl + D Cmd (⌘) + D Ajouter plusieurs curseurs (haut/bas) Ctrl + Alt + ↑ / ↓ Option (⌥) + Cmd (⌘) + ↑ / ↓ Copier ligne vers le haut ou le bas Shift + Alt + ↑ / ↓ Shift + Option (⌥) + ↑ / ↓ Commenter rapidement des lignes ctrl + é *Il est possible que ces raccourcis soient différents selon la configuration du clavier que vous utiliser, mais je vous assure que ces fonctions existent! Il vous suffi de les trouver.</description>
+      <description>Installation Lien d’instalation&#xA;Installation des extensions Ouvrez la barre latérale de gauche dans VSCode. Cliquez sur l’icône des extensions ou utilisez le raccourci clavier Ctrl + Shift + X. Recherchez Python et installez l’extension. Fonctionnalités essentielles Visual Studio Code n’est pas qu’un simple éditeur de texte ; c’est un environnement de développement complet (IDE) qui s’adapte à tes besoins grâce à ses différents outils.</description>
+    </item>
+    <item>
+      <title>Mon Premier Programme</title>
+      <link>http://localhost:1313/420-SN1-RE/1-introduction/mon-premier-programme/index.html</link>
+      <pubDate>Tue, 20 Jan 2026 11:04:07 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/1-introduction/mon-premier-programme/index.html</guid>
+      <description>Créer votre premier script Avant de tester les trois méthodes, créez un fichier nommé bonjour.py et écrivez la ligne suivante :&#xA;print(&#34;Bonjour le monde!&#34;) 1. La méthode rapide : Le bouton Play C’est la méthode la plus simple pour les débutants.&#xA;Comment faire : Cliquez sur l’icône de triangle en haut à droite de l’éditeur. Ce qui se passe : VSCode ouvre automatiquement le terminal, tape le chemin de Python et lance votre fichier. Avantage : Aucun risque de faire une faute de frappe dans la commande. 2. La méthode pro : Appeler le script via le Terminal C’est ainsi que les développeurs lancent souvent leurs programmes pour passer des paramètres ou tester des environnements précis.</description>
     </item>
   </channel>
 </rss>
