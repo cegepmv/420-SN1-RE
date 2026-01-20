@@ -6,6 +6,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/index.html</loc>
+    <lastmod>2026-01-20T12:01:45-05:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/3-fonctions/index.html</loc>
@@ -29,6 +30,10 @@
     <loc>http://localhost:1313/420-SN1-RE/9-bibliotheque/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/operations/index.html</loc>
+    <lastmod>2026-01-20T09:53:45-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-SN1-RE/10-matplotlib/index.html</loc>
   </url>
   <url>
@@ -50,8 +55,36 @@
     <lastmod>2026-01-20T11:04:07-05:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/constantes/index.html</loc>
+    <lastmod>2026-01-20T10:19:57-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/interaction-utilisateur/index.html</loc>
+    <lastmod>2026-01-20T12:01:45-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-SN1-RE/index.html</loc>
-    <lastmod>2026-01-20T11:04:07-05:00</lastmod>
+    <lastmod>2026-01-20T12:01:45-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/erreurs/index.html</loc>
+    <lastmod>2026-01-20T10:52:01-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/types/index.html</loc>
+    <lastmod>2026-01-20T10:17:46-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/index.html</loc>
+    <lastmod>2026-01-20T10:17:02-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/chaines/index.html</loc>
+    <lastmod>2026-01-20T10:03:20-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/index.html</loc>
+    <lastmod>2026-01-20T10:03:03-05:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/categories/index.html</loc>

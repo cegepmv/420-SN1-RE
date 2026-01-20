@@ -3,7 +3,7 @@
   <channel>
     <title>Fonctions :: Introduction à la programmation</title>
     <link>http://localhost:1313/420-SN1-RE/3-fonctions/index.html</link>
-    <description>This is a new chapter.</description>
+    <description>2. La Portée (Scope) La portée définit où une variable est “visible” et utilisable dans votre code.&#xA;Variables Locales Une variable créée à l’intérieur d’un bloc spécifique (comme une fonction) est locale. Elle n’existe que là. C’est comme un brouillon de calcul que vous jetez après usage.&#xA;Variables Globales Une variable définie tout en haut de votre script, en dehors de tout bloc, est globale. Elle peut être lue de n’importe où dans le fichier.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <atom:link href="http://localhost:1313/420-SN1-RE/3-fonctions/index.xml" rel="self" type="application/rss+xml" />

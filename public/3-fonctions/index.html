@@ -3,45 +3,53 @@
   <head><script src="/420-SN1-RE/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=420-SN1-RE/livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
-    <meta name="generator" content="Hugo 0.148.2">
+    <meta name="generator" content="Hugo 0.131.0">
     <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
-    <meta name="description" content="This is a new chapter.">
+    <meta name="description" content="2. La Portée (Scope) La portée définit où une variable est “visible” et utilisable dans votre code.
+Variables Locales Une variable créée à l’intérieur d’un bloc spécifique (comme une fonction) est locale. Elle n’existe que là. C’est comme un brouillon de calcul que vous jetez après usage.
+Variables Globales Une variable définie tout en haut de votre script, en dehors de tout bloc, est globale. Elle peut être lue de n’importe où dans le fichier.">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="Fonctions :: Introduction à la programmation">
-    <meta name="twitter:description" content="This is a new chapter.">
+    <meta name="twitter:description" content="2. La Portée (Scope) La portée définit où une variable est “visible” et utilisable dans votre code.
+Variables Locales Une variable créée à l’intérieur d’un bloc spécifique (comme une fonction) est locale. Elle n’existe que là. C’est comme un brouillon de calcul que vous jetez après usage.
+Variables Globales Une variable définie tout en haut de votre script, en dehors de tout bloc, est globale. Elle peut être lue de n’importe où dans le fichier.">
     <meta property="og:url" content="http://localhost:1313/420-SN1-RE/3-fonctions/index.html">
     <meta property="og:site_name" content="Introduction à la programmation">
     <meta property="og:title" content="Fonctions :: Introduction à la programmation">
-    <meta property="og:description" content="This is a new chapter.">
+    <meta property="og:description" content="2. La Portée (Scope) La portée définit où une variable est “visible” et utilisable dans votre code.
+Variables Locales Une variable créée à l’intérieur d’un bloc spécifique (comme une fonction) est locale. Elle n’existe que là. C’est comme un brouillon de calcul que vous jetez après usage.
+Variables Globales Une variable définie tout en haut de votre script, en dehors de tout bloc, est globale. Elle peut être lue de n’importe où dans le fichier.">
     <meta property="og:locale" content="fr_ca">
     <meta property="og:type" content="website">
     <meta itemprop="name" content="Fonctions :: Introduction à la programmation">
-    <meta itemprop="description" content="This is a new chapter.">
-    <meta itemprop="wordCount" content="5">
+    <meta itemprop="description" content="2. La Portée (Scope) La portée définit où une variable est “visible” et utilisable dans votre code.
+Variables Locales Une variable créée à l’intérieur d’un bloc spécifique (comme une fonction) est locale. Elle n’existe que là. C’est comme un brouillon de calcul que vous jetez après usage.
+Variables Globales Une variable définie tout en haut de votre script, en dehors de tout bloc, est globale. Elle peut être lue de n’importe où dans le fichier.">
+    <meta itemprop="wordCount" content="235">
     <title>Fonctions :: Introduction à la programmation</title>
     <link href="/420-SN1-RE/3-fonctions/index.xml" rel="alternate" type="application/rss+xml" title="Fonctions :: Introduction à la programmation">
-    <link href="/420-SN1-RE/images/favicon.png?1768925427" rel="icon" type="image/png">
-    <link href="/420-SN1-RE/css/auto-complete/auto-complete.min.css?1768925427" rel="stylesheet">
-    <script src="/420-SN1-RE/js/auto-complete/auto-complete.min.js?1768925427" defer></script>
-    <script src="/420-SN1-RE/js/search-lunr.js?1768925427" defer></script>
-    <script src="/420-SN1-RE/js/search.js?1768925427" defer></script>
+    <link href="/420-SN1-RE/images/favicon.png?1768930157" rel="icon" type="image/png">
+    <link href="/420-SN1-RE/css/auto-complete/auto-complete.min.css?1768930157" rel="stylesheet">
+    <script src="/420-SN1-RE/js/auto-complete/auto-complete.min.js?1768930157" defer></script>
+    <script src="/420-SN1-RE/js/search-lunr.js?1768930157" defer></script>
+    <script src="/420-SN1-RE/js/search.js?1768930157" defer></script>
     <script>
       window.relearn = window.relearn || {};
-      window.relearn.index_js_url="/420-SN1-RE/searchindex.en.js?1768925427";
+      window.relearn.index_js_url="/420-SN1-RE/searchindex.en.js?1768930157";
     </script>
-    <script src="/420-SN1-RE/js/lunr/lunr.min.js?1768925427" defer></script>
-    <script src="/420-SN1-RE/js/lunr/lunr.stemmer.support.min.js?1768925427" defer></script>
-    <script src="/420-SN1-RE/js/lunr/lunr.multi.min.js?1768925427" defer></script>
-    <script src="/420-SN1-RE/js/lunr/lunr.fr.min.js?1768925427" defer></script>
+    <script src="/420-SN1-RE/js/lunr/lunr.min.js?1768930157" defer></script>
+    <script src="/420-SN1-RE/js/lunr/lunr.stemmer.support.min.js?1768930157" defer></script>
+    <script src="/420-SN1-RE/js/lunr/lunr.multi.min.js?1768930157" defer></script>
+    <script src="/420-SN1-RE/js/lunr/lunr.fr.min.js?1768930157" defer></script>
     <script>
       window.relearn = window.relearn || {};
       window.relearn.contentLangs=['fr'];
     </script>
-    <link href="/420-SN1-RE/fonts/fontawesome/css/fontawesome-all.min.css?1768925427" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-SN1-RE/fonts/fontawesome/css/fontawesome-all.min.css?1768925427" rel="stylesheet"></noscript>
-    <link href="/420-SN1-RE/css/perfect-scrollbar/perfect-scrollbar.min.css?1768925427" rel="stylesheet">
-    <link href="/420-SN1-RE/css/theme.css?1768925427" rel="stylesheet">
-    <link href="/420-SN1-RE/css/format-html.css?1768925427" rel="stylesheet" id="R-format-style">
+    <link href="/420-SN1-RE/fonts/fontawesome/css/fontawesome-all.min.css?1768930157" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-SN1-RE/fonts/fontawesome/css/fontawesome-all.min.css?1768930157" rel="stylesheet"></noscript>
+    <link href="/420-SN1-RE/css/perfect-scrollbar/perfect-scrollbar.min.css?1768930157" rel="stylesheet">
+    <link href="/420-SN1-RE/css/theme.css?1768930157" rel="stylesheet">
+    <link href="/420-SN1-RE/css/format-html.css?1768930157" rel="stylesheet" id="R-format-style">
     <script>
       window.relearn = window.relearn || {};
       // configuration
@@ -113,7 +121,19 @@
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#2-la-portée-scope">2. La Portée (Scope)</a>
+      <ul>
+        <li><a href="#variables-locales">Variables Locales</a></li>
+        <li><a href="#variables-globales">Variables Globales</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-le-mot-clé-global">3. Le mot-clé <code>global</code></a></li>
+    <li><a href="#4-danger-des-variables-globales">4. Danger des variables globales</a></li>
+  </ul>
+</nav>
                 </div>
               </div>
             </div>
@@ -121,7 +141,7 @@
           <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-SN1-RE/index.html"><span itemprop="name">Programmation en sciences</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Fonctions</span><meta itemprop="position" content="2"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/2-fondamentaux/index.html" title="Fondamentaux (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/2-fondamentaux/variables/chaines/index.html" title="Chaines (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
             <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/4-regle/index.html" title="Regle (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
@@ -146,7 +166,34 @@
 
 <h1 id="fonctions">Fonctions</h1>
 
-<p>This is a new chapter.</p>
+<h2 id="2-la-portée-scope">2. La Portée (Scope)</h2>
+<p>La <strong>portée</strong> définit où une variable est &ldquo;visible&rdquo; et utilisable dans votre code.</p>
+<h3 id="variables-locales">Variables Locales</h3>
+<p>Une variable créée à l&rsquo;intérieur d&rsquo;un bloc spécifique (comme une fonction) est locale. Elle n&rsquo;existe que là. C&rsquo;est comme un brouillon de calcul que vous jetez après usage.</p>
+<h3 id="variables-globales">Variables Globales</h3>
+<p>Une variable définie tout en haut de votre script, en dehors de tout bloc, est <strong>globale</strong>. Elle peut être lue de n&rsquo;importe où dans le fichier.</p>
+<p>[Image showing the difference between global scope (the whole house) and local scope (one specific room)]</p>
+<hr>
+<h2 id="3-le-mot-clé-global">3. Le mot-clé <code>global</code></h2>
+<p>Si vous avez besoin de <strong>modifier</strong> une variable globale à l&rsquo;intérieur d&rsquo;une fonction, Python vous oblige à déclarer explicitement que vous savez ce que vous faites avec le mot-clé <code>global</code>.</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">compteur</span> <span class="o">=</span> <span class="mi">0</span>  <span class="c1"># Variable globale</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">incrementer</span><span class="p">():</span>
+</span></span><span class="line"><span class="cl">    <span class="k">global</span> <span class="n">compteur</span>
+</span></span><span class="line"><span class="cl">    <span class="n">compteur</span> <span class="o">=</span> <span class="n">compteur</span> <span class="o">+</span> <span class="mi">1</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="n">incrementer</span><span class="p">()</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="n">compteur</span><span class="p">)</span> <span class="c1"># Affiche 1</span></span></span></code></pre></div>
+<hr>
+<h2 id="4-danger-des-variables-globales">4. Danger des variables globales</h2>
+<p>En tant que futurs scientifiques ou ingénieurs, vous devez être prudents avec les variables globales :</p>
+<ol>
+<li><strong>Effets de bord :</strong> Si plusieurs parties de votre programme modifient la même variable globale, il devient très difficile de trouver l&rsquo;origine d&rsquo;un bogue.</li>
+<li><strong>Mémoire :</strong> Les variables globales restent en mémoire pendant toute la durée de l&rsquo;exécution, contrairement aux locales qui sont libérées rapidement.</li>
+</ol>
+<blockquote>
+<p><strong>Conseil de prof :</strong> Utilisez les <strong>constantes globales</strong> (en MAJUSCULES) sans modération pour vos paramètres physiques, mais évitez au maximum les <strong>variables globales modifiables</strong>.</p>
+</blockquote>
 
   <footer class="footline">
   </footer>
@@ -204,7 +251,7 @@
         <div class="R-sidebarmenu R-shortcutmenu-main">
           <ul class="enlarge morespace collapsible-menu">
             <li class="" data-nav-id="/420-SN1-RE/1-introduction/index.html"><a class="padding" href="/420-SN1-RE/1-introduction/index.html">Introduction</a><ul id="R-subsections-1c923956455691612f1dbcc6d951d5eb" class="collapsible-menu"></ul></li>
-            <li class="" data-nav-id="/420-SN1-RE/2-fondamentaux/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/index.html">Fondamentaux</a></li>
+            <li class="" data-nav-id="/420-SN1-RE/2-fondamentaux/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/index.html">Fondamentaux</a><ul id="R-subsections-f9c0133bbe4849d9b11c65d1790731aa" class="collapsible-menu"></ul></li>
             <li class="active " data-nav-id="/420-SN1-RE/3-fonctions/index.html"><a class="padding" href="/420-SN1-RE/3-fonctions/index.html">Fonctions</a></li>
             <li class="" data-nav-id="/420-SN1-RE/4-regle/index.html"><a class="padding" href="/420-SN1-RE/4-regle/index.html">Regle</a></li>
             <li class="" data-nav-id="/420-SN1-RE/5-structure-de-controle/index.html"><a class="padding" href="/420-SN1-RE/5-structure-de-controle/index.html">Structure De Controle</a></li>
@@ -250,8 +297,8 @@
 <div id="R-footer"></div>
       </div>
     </aside>
-    <script src="/420-SN1-RE/js/clipboard/clipboard.min.js?1768925427" defer></script>
-    <script src="/420-SN1-RE/js/perfect-scrollbar/perfect-scrollbar.min.js?1768925427" defer></script>
-    <script src="/420-SN1-RE/js/theme.js?1768925427" defer></script>
+    <script src="/420-SN1-RE/js/clipboard/clipboard.min.js?1768930157" defer></script>
+    <script src="/420-SN1-RE/js/perfect-scrollbar/perfect-scrollbar.min.js?1768930157" defer></script>
+    <script src="/420-SN1-RE/js/theme.js?1768930157" defer></script>
   </body>
 </html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Binaire :: Introduction à la programmation</title>
+    <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/index.html</link>
+    <description>Comprendre le Binaire : Compter avec des interrupteurs En mathématiques ou en mécanique, vous manipulez des nombres dans le système décimal (base 10). Cependant, au niveau matériel, un ordinateur ne comprend que deux états physiques : le courant passe (1) ou le courant ne passe pas (0). C’est ce qu’on appelle un bit (binary digit).&#xA;1. Rappel : La notation positionnelle (Base 10) Pour comprendre le binaire, il faut réaliser que notre façon de noter les nombres est une somme de puissances.</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Tue, 20 Jan 2026 10:52:01 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Erreurs</title>
+      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/erreurs/index.html</link>
+      <pubDate>Tue, 20 Jan 2026 10:52:01 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/erreurs/index.html</guid>
+      <description>Les Flottants : L’incertitude numérique En mécanique ou en physique, vous savez qu’une mesure n’est jamais infiniment précise. En informatique, c’est la même chose pour les nombres à virgule, appelés flottants (float).&#xA;L’ordinateur utilise la norme IEEE 754 pour stocker ces nombres dans un espace fini (64 bits). Cette limitation physique entraîne des comportements qui peuvent fausser vos calculs scientifiques si vous n’y prenez pas garde.&#xA;1. Le choc du 0.</description>
+    </item>
+  </channel>
+</rss>
