@@ -1,6 +1,7 @@
 +++
 title = "Numpy"
 type = "chapter"
+draft = true
 weight = 8
 +++
 

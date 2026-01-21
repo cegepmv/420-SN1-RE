@@ -1,6 +1,7 @@
 +++
 date = '2026-01-20T10:03:03-05:00'
 title = 'Variables'
+weight = 23
 +++
 ## Les Variables : Gérer la mémoire
 

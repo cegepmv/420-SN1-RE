@@ -5,22 +5,30 @@
     <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
     <meta name="generator" content="Hugo 0.148.2">
     <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
-    <meta name="description" content="This is a new chapter.">
+    <meta name="description" content="💡 Pourquoi commenter son code ? En programmation, le code est lu beaucoup plus souvent qu’il n’est écrit. Les commentaires servent à :
+Expliquer le “pourquoi” plutôt que le “comment” (le code montre déjà le “comment”). Aider à la collaboration avec d’autres développeurs. Se souvenir de sa propre logique lorsqu’on relit un projet après plusieurs mois. 1. Les types de commentaires A. Le commentaire sur une seule ligne (#) C’est la forme la plus courante. Tout ce qui suit le symbole # sur la même ligne est ignoré par l’interpréteur Python.">
     <meta name="author" content="">
     <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="Sciences :: Introduction à la programmation">
-    <meta name="twitter:description" content="This is a new chapter.">
-    <meta property="og:url" content="http://localhost:36767/420-SN1-RE/12-sciences/index.html">
+    <meta name="twitter:title" content="Commentaires :: Introduction à la programmation">
+    <meta name="twitter:description" content="💡 Pourquoi commenter son code ? En programmation, le code est lu beaucoup plus souvent qu’il n’est écrit. Les commentaires servent à :
+Expliquer le “pourquoi” plutôt que le “comment” (le code montre déjà le “comment”). Aider à la collaboration avec d’autres développeurs. Se souvenir de sa propre logique lorsqu’on relit un projet après plusieurs mois. 1. Les types de commentaires A. Le commentaire sur une seule ligne (#) C’est la forme la plus courante. Tout ce qui suit le symbole # sur la même ligne est ignoré par l’interpréteur Python.">
+    <meta property="og:url" content="http://localhost:36767/420-SN1-RE/2-fondamentaux/commentaires/index.html">
     <meta property="og:site_name" content="Introduction à la programmation">
-    <meta property="og:title" content="Sciences :: Introduction à la programmation">
-    <meta property="og:description" content="This is a new chapter.">
+    <meta property="og:title" content="Commentaires :: Introduction à la programmation">
+    <meta property="og:description" content="💡 Pourquoi commenter son code ? En programmation, le code est lu beaucoup plus souvent qu’il n’est écrit. Les commentaires servent à :
+Expliquer le “pourquoi” plutôt que le “comment” (le code montre déjà le “comment”). Aider à la collaboration avec d’autres développeurs. Se souvenir de sa propre logique lorsqu’on relit un projet après plusieurs mois. 1. Les types de commentaires A. Le commentaire sur une seule ligne (#) C’est la forme la plus courante. Tout ce qui suit le symbole # sur la même ligne est ignoré par l’interpréteur Python.">
     <meta property="og:locale" content="fr_ca">
-    <meta property="og:type" content="website">
-    <meta itemprop="name" content="Sciences :: Introduction à la programmation">
-    <meta itemprop="description" content="This is a new chapter.">
-    <meta itemprop="wordCount" content="5">
-    <title>Sciences :: Introduction à la programmation</title>
-    <link href="/420-SN1-RE/12-sciences/index.xml" rel="alternate" type="application/rss+xml" title="Sciences :: Introduction à la programmation">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Fondamentaux">
+    <meta property="article:published_time" content="2026-01-21T09:26:35-05:00">
+    <meta property="article:modified_time" content="2026-01-21T09:26:35-05:00">
+    <meta itemprop="name" content="Commentaires :: Introduction à la programmation">
+    <meta itemprop="description" content="💡 Pourquoi commenter son code ? En programmation, le code est lu beaucoup plus souvent qu’il n’est écrit. Les commentaires servent à :
+Expliquer le “pourquoi” plutôt que le “comment” (le code montre déjà le “comment”). Aider à la collaboration avec d’autres développeurs. Se souvenir de sa propre logique lorsqu’on relit un projet après plusieurs mois. 1. Les types de commentaires A. Le commentaire sur une seule ligne (#) C’est la forme la plus courante. Tout ce qui suit le symbole # sur la même ligne est ignoré par l’interpréteur Python.">
+    <meta itemprop="datePublished" content="2026-01-21T09:26:35-05:00">
+    <meta itemprop="dateModified" content="2026-01-21T09:26:35-05:00">
+    <meta itemprop="wordCount" content="345">
+    <title>Commentaires :: Introduction à la programmation</title>
     <link href="/420-SN1-RE/images/favicon.png?1769010730" rel="icon" type="image/png">
     <link href="/420-SN1-RE/css/auto-complete/auto-complete.min.css?1769010730" rel="stylesheet">
     <script src="/420-SN1-RE/js/auto-complete/auto-complete.min.js?1769010730" defer></script>
@@ -46,9 +54,9 @@
       window.relearn = window.relearn || {};
       // configuration
       window.relearn.min = ``;
-      window.relearn.path='\/12-sciences\/index.html';
-      window.relearn.relBasePath='..';
-      window.relearn.relBaseUri='..\/..';
+      window.relearn.path='\/2-fondamentaux\/commentaires\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
       window.relearn.absBaseUri='http:\/\/localhost:36767\/420-SN1-RE';
       window.relearn.disableAnchorCopy=false;
       window.relearn.disableAnchorScrolling=false;
@@ -102,7 +110,7 @@
 }
 </style>
   </head>
-  <body class="mobile-support html" data-url="/420-SN1-RE/12-sciences/index.html">
+  <body class="mobile-support html" data-url="/420-SN1-RE/2-fondamentaux/commentaires/index.html">
     <div id="R-body" class="default-animation">
       <div id="R-body-overlay"></div>
       <nav id="R-topbar">
@@ -113,17 +121,30 @@
             </div>
             <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
               <div class="topbar-content">
-                <div class="topbar-content-wrapper"> 
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#-pourquoi-commenter-son-code-">💡 Pourquoi commenter son code ?</a></li>
+    <li><a href="#1-les-types-de-commentaires">1. Les types de commentaires</a>
+      <ul>
+        <li><a href="#a-le-commentaire-sur-une-seule-ligne-">A. Le commentaire sur une seule ligne (<code>#</code>)</a></li>
+        <li><a href="#b-les-commentaires-multi-lignes">B. Les commentaires multi-lignes</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-les-meilleures-pratiques-le-standard-pep-8">2. Les meilleures pratiques (Le standard PEP 8)</a></li>
+    <li><a href="#3-astuce-pour-déboguer--commenter-le-code">3. Astuce pour déboguer : &ldquo;Commenter le code&rdquo;</a></li>
+  </ul>
+</nav>
                 </div>
               </div>
             </div>
           </div>
-          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-SN1-RE/index.html"><span itemprop="name">Programmation en sciences</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Sciences</span><meta itemprop="position" content="2"></li>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-SN1-RE/index.html"><span itemprop="name">Programmation en sciences</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-SN1-RE/2-fondamentaux/index.html"><span itemprop="name">Fondamentaux</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Commentaires</span><meta itemprop="position" content="3"></li>
           </ol>
           <div class="topbar-area topbar-area-end" data-area="end">
-            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/11-scipy/index.html" title="Scipy (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/2-fondamentaux/index.html" title="Fondamentaux (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
             </div>
-            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/13-exercices/index.html" title="13 Exercices (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/2-fondamentaux/operations/index.html" title="Opérations (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
             </div>
             <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
               <div class="topbar-content">
@@ -137,18 +158,72 @@
         </div>
       </nav>
       <div id="R-main-overlay"></div>
-      <main id="R-body-inner" class="highlightable chapter" tabindex="-1">
+      <main id="R-body-inner" class="highlightable 2-fondamentaux" tabindex="-1">
         <div class="flex-block-wrapper">
-<article class="chapter narrow">
+<article class="default">
   <header class="headline">
   </header>
-<div class="article-subheading">Chapter 12</div>
 
-<h1 id="sciences">Sciences</h1>
+<h1 id="commentaires">Commentaires</h1>
 
-<p>This is a new chapter.</p>
+<hr>
+<h2 id="-pourquoi-commenter-son-code-">💡 Pourquoi commenter son code ?</h2>
+<p>En programmation, le code est lu beaucoup plus souvent qu&rsquo;il n&rsquo;est écrit. Les commentaires servent à :</p>
+<ul>
+<li><strong>Expliquer le &ldquo;pourquoi&rdquo;</strong> plutôt que le &ldquo;comment&rdquo; (le code montre déjà le &ldquo;comment&rdquo;).</li>
+<li><strong>Aider à la collaboration</strong> avec d&rsquo;autres développeurs.</li>
+<li><strong>Se souvenir de sa propre logique</strong> lorsqu&rsquo;on relit un projet après plusieurs mois.</li>
+</ul>
+<hr>
+<h2 id="1-les-types-de-commentaires">1. Les types de commentaires</h2>
+<h3 id="a-le-commentaire-sur-une-seule-ligne-">A. Le commentaire sur une seule ligne (<code>#</code>)</h3>
+<p>C&rsquo;est la forme la plus courante. Tout ce qui suit le symbole <code>#</code> sur la même ligne est ignoré par l&rsquo;interpréteur Python.</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Voici un commentaire complet sur une ligne</span>
+</span></span><span class="line"><span class="cl"><span class="n">vitesse</span> <span class="o">=</span> <span class="mi">100</span>  <span class="c1"># Commentaire de fin de ligne (inline)</span></span></span></code></pre></div>
+<h3 id="b-les-commentaires-multi-lignes">B. Les commentaires multi-lignes</h3>
+<p>Techniquement, Python n&rsquo;a pas de syntaxe spécifique pour les commentaires multi-lignes. On utilise deux méthodes :</p>
+<ul>
+<li>**Répéter le symbole <code>#**</code> sur chaque ligne (méthode recommandée par le guide de style PEP 8).</li>
+<li><strong>Utiliser des chaînes de caractères triples</strong> (<code>&quot;&quot;&quot;</code> ou <code>'''</code>). Bien qu&rsquo;elles soient techniquement des chaînes de texte, si elles ne sont pas assignées à une variable, Python les ignore.</li>
+</ul>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># Ceci est un commentaire</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># écrit sur plusieurs</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># lignes de code.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;
+</span></span></span><span class="line"><span class="cl"><span class="s2">Ceci est souvent utilisé comme commentaire 
+</span></span></span><span class="line"><span class="cl"><span class="s2">bloc, même si c&#39;est techniquement une 
+</span></span></span><span class="line"><span class="cl"><span class="s2">chaîne de caractères non assignée.
+</span></span></span><span class="line"><span class="cl"><span class="s2">&#34;&#34;&#34;</span></span></span></code></pre></div>
+<h2 id="2-les-meilleures-pratiques-le-standard-pep-8">2. Les meilleures pratiques (Le standard PEP 8)</h2>
+<ul>
+<li>
+<p><strong>Soyez concis :</strong> Un commentaire ne doit pas expliquer une évidence.</p>
+</li>
+<li>
+<p>❌ <code>x = x + 1 # Ajoute 1 à x</code> (Inutile)</p>
+</li>
+<li>
+<p>✅ <code>x = x + 1 # Correction de l'index suite au décalage du header</code></p>
+</li>
+<li>
+<p><strong>Gardez-les à jour :</strong> Un commentaire erroné est pire qu&rsquo;une absence de commentaire.</p>
+</li>
+<li>
+<p><strong>La langue :</strong> En milieu professionnel, l&rsquo;anglais est souvent privilégié, mais en apprentissage, utilisez la langue avec laquelle vous êtes le plus à l&rsquo;aise.</p>
+</li>
+<li>
+<p><strong>Espace après le <code>#</code> :</strong> Toujours mettre un espace entre le symbole et le premier caractère (ex: <code># Commentaire</code> et non <code>#Commentaire</code>).</p>
+</li>
+</ul>
+<hr>
+<h2 id="3-astuce-pour-déboguer--commenter-le-code">3. Astuce pour déboguer : &ldquo;Commenter le code&rdquo;</h2>
+<p>On utilise souvent les commentaires pour désactiver temporairement une partie du code sans la supprimer afin de tester une autre solution.</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="c1"># print(&#34;Ancienne méthode&#34;)</span>
+</span></span><span class="line"><span class="cl"><span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Nouvelle méthode&#34;</span><span class="p">)</span></span></span></code></pre></div>
 
   <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Jan 21, 2026
   </footer>
 </article>
         </div>
@@ -204,7 +279,11 @@
         <div class="R-sidebarmenu R-shortcutmenu-main">
           <ul class="enlarge morespace collapsible-menu">
             <li class="" data-nav-id="/420-SN1-RE/1-introduction/index.html"><a class="padding" href="/420-SN1-RE/1-introduction/index.html">Introduction</a><ul id="R-subsections-1c923956455691612f1dbcc6d951d5eb" class="collapsible-menu"></ul></li>
-            <li class="" data-nav-id="/420-SN1-RE/2-fondamentaux/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/index.html">Fondamentaux</a><ul id="R-subsections-f9c0133bbe4849d9b11c65d1790731aa" class="collapsible-menu"></ul></li>
+            <li class="parent " data-nav-id="/420-SN1-RE/2-fondamentaux/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/index.html">Fondamentaux</a><ul id="R-subsections-f9c0133bbe4849d9b11c65d1790731aa" class="collapsible-menu">
+            <li class="active " data-nav-id="/420-SN1-RE/2-fondamentaux/commentaires/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/commentaires/index.html">Commentaires</a></li>
+            <li class="" data-nav-id="/420-SN1-RE/2-fondamentaux/operations/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/operations/index.html">Opérations</a></li>
+            <li class="alwaysopen " data-nav-id="/420-SN1-RE/2-fondamentaux/binaire/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/binaire/index.html">Binaire</a><ul id="R-subsections-e5c50a5e9ab1527edf0cbdd2253096fe" class="collapsible-menu"></ul></li>
+            <li class="alwaysopen " data-nav-id="/420-SN1-RE/2-fondamentaux/variables/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/variables/index.html">Variables</a><ul id="R-subsections-0ae551425624ca2ad05aebb575a6f110" class="collapsible-menu"></ul></li></ul></li>
             <li class="" data-nav-id="/420-SN1-RE/3-fonctions/index.html"><a class="padding" href="/420-SN1-RE/3-fonctions/index.html">Fonctions</a></li>
             <li class="" data-nav-id="/420-SN1-RE/4-regle/index.html"><a class="padding" href="/420-SN1-RE/4-regle/index.html">Règles &amp; conventions</a></li>
             <li class="" data-nav-id="/420-SN1-RE/5-structure-de-controle/index.html"><a class="padding" href="/420-SN1-RE/5-structure-de-controle/index.html">Structure De Controle</a></li>
@@ -214,7 +293,7 @@
             <li class="" data-nav-id="/420-SN1-RE/9-bibliotheque/index.html"><a class="padding" href="/420-SN1-RE/9-bibliotheque/index.html">Bibliotheque</a></li>
             <li class="" data-nav-id="/420-SN1-RE/10-matplotlib/index.html"><a class="padding" href="/420-SN1-RE/10-matplotlib/index.html">Matplotlib</a></li>
             <li class="" data-nav-id="/420-SN1-RE/11-scipy/index.html"><a class="padding" href="/420-SN1-RE/11-scipy/index.html">Scipy</a></li>
-            <li class="active " data-nav-id="/420-SN1-RE/12-sciences/index.html"><a class="padding" href="/420-SN1-RE/12-sciences/index.html">Sciences</a></li>
+            <li class="" data-nav-id="/420-SN1-RE/12-sciences/index.html"><a class="padding" href="/420-SN1-RE/12-sciences/index.html">Sciences</a></li>
             <li class="" data-nav-id="/420-SN1-RE/13-exercices/index.html"><a class="padding" href="/420-SN1-RE/13-exercices/index.html">13 Exercices</a></li>
           </ul>
         </div>

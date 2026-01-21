@@ -1,10 +1,31 @@
 +++
 title = "Fonctions"
 type = "chapter"
+draft = true
 weight = 3
 +++
 
+---
 
+## 2. Les Docstrings (Chaînes de documentation)
+
+C'est une fonctionnalité spécifique à Python pour documenter les fonctions, les classes et les modules. Contrairement aux commentaires classiques, les docstrings sont stockées dans l'attribut `__doc__` et peuvent être extraites par des outils de documentation.
+
+```python
+def calculer_aire(rayon):
+    """
+    Calcule l'aire d'un cercle à partir de son rayon.
+    
+    Args:
+        rayon (float): Le rayon du cercle.
+    Returns:
+        float: L'aire calculée.
+    """
+    return 3.14159 * (rayon ** 2)
+
+```
+
+---
 ## 2. La Portée (Scope)
 
 La **portée** définit où une variable est "visible" et utilisable dans votre code.

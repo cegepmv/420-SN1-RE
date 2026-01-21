@@ -2,32 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fondamentaux :: Introduction à la programmation</title>
-    <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/index.html</link>
-    <description>Introduction aux Variables En mathématiques ou en physique, vous manipulez des variables comme $x$, $y$ ou $g$ pour représenter des valeurs dans une équation. En informatique, une variable est un concept plus concret : c’est un emplacement réservé dans la mémoire vive (RAM) de l’ordinateur.&#xA;Pourquoi avons-nous besoin de variables ? Un programme doit être capable de :&#xA;Mémoriser des informations (ex: le résultat d’une mesure de laboratoire). Transformer ces données (ex: convertir des Celsius en Kelvin).</description>
+    <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/index.html</link>
+    <description>Introduction aux Variables En mathématiques ou en physique, vous manipulez des variables comme $x$, $y$ ou $g$ pour représenter des valeurs dans une équation. En informatique, une variable est un concept plus concret : c’est un emplacement réservé dans la mémoire vive (RAM) de l’ordinateur.&#xA;Pourquoi avons-nous besoin de variables ? Un programme doit être capable de :&#xA;Mémoriser des informations (ex: le résultat d’une mesure de laboratoire). Transformer ces données (ex: convertir des Celsius en Kelvin). Réutiliser ces valeurs à plusieurs endroits sans avoir à les retaper. Ce que nous allons couvrir Dans ce chapitre, nous allons explorer :</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Tue, 20 Jan 2026 10:17:02 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/420-SN1-RE/2-fondamentaux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 21 Jan 2026 09:26:35 -0500</lastBuildDate>
+    <atom:link href="http://localhost:36767/420-SN1-RE/2-fondamentaux/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Operations</title>
-      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/operations/index.html</link>
+      <title>Commentaires</title>
+      <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/commentaires/index.html</link>
+      <pubDate>Wed, 21 Jan 2026 09:26:35 -0500</pubDate>
+      <guid>http://localhost:36767/420-SN1-RE/2-fondamentaux/commentaires/index.html</guid>
+      <description>💡 Pourquoi commenter son code ? En programmation, le code est lu beaucoup plus souvent qu’il n’est écrit. Les commentaires servent à :&#xA;Expliquer le “pourquoi” plutôt que le “comment” (le code montre déjà le “comment”). Aider à la collaboration avec d’autres développeurs. Se souvenir de sa propre logique lorsqu’on relit un projet après plusieurs mois. 1. Les types de commentaires A. Le commentaire sur une seule ligne (#) C’est la forme la plus courante. Tout ce qui suit le symbole # sur la même ligne est ignoré par l’interpréteur Python.</description>
+    </item>
+    <item>
+      <title>Opérations</title>
+      <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/operations/index.html</link>
       <pubDate>Tue, 20 Jan 2026 09:53:45 -0500</pubDate>
-      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/operations/index.html</guid>
-      <description>Les Opérations Arithmétiques Python est une calculatrice scientifique extrêmement puissante. Pour manipuler vos données de laboratoire, vous devez maîtriser les opérateurs de base et l’ordre dans lequel Python les traite.&#xA;1. Les Opérateurs de base La plupart des opérateurs sont identiques à ceux que vous utilisez en mathématiques.&#xA;Opération Symbole Exemple Résultat Addition + 10 + 5 15 Soustraction - 10 - 5 5 Multiplication * 10 * 5 50 Exposant ** 10 ** 2 100 Attention : En Python, l’exposant est **.</description>
+      <guid>http://localhost:36767/420-SN1-RE/2-fondamentaux/operations/index.html</guid>
+      <description>Les Opérations Arithmétiques Python est une calculatrice scientifique extrêmement puissante. Pour manipuler vos données de laboratoire, vous devez maîtriser les opérateurs de base et l’ordre dans lequel Python les traite.&#xA;1. Les Opérateurs de base La plupart des opérateurs sont identiques à ceux que vous utilisez en mathématiques.&#xA;Opération Symbole Exemple Résultat Addition + 10 + 5 15 Soustraction - 10 - 5 5 Multiplication * 10 * 5 50 Exposant ** 10 ** 2 100 Attention : En Python, l’exposant est **. Le symbole ^ existe mais il sert à la logique binaire (XOR). Pour calculer $E = mc^2$, on écrira E = m * c**2.</description>
     </item>
     <item>
       <title>Binaire</title>
-      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/index.html</link>
+      <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/binaire/index.html</link>
       <pubDate>Tue, 20 Jan 2026 10:17:02 -0500</pubDate>
-      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/index.html</guid>
+      <guid>http://localhost:36767/420-SN1-RE/2-fondamentaux/binaire/index.html</guid>
       <description>Comprendre le Binaire : Compter avec des interrupteurs En mathématiques ou en mécanique, vous manipulez des nombres dans le système décimal (base 10). Cependant, au niveau matériel, un ordinateur ne comprend que deux états physiques : le courant passe (1) ou le courant ne passe pas (0). C’est ce qu’on appelle un bit (binary digit).&#xA;1. Rappel : La notation positionnelle (Base 10) Pour comprendre le binaire, il faut réaliser que notre façon de noter les nombres est une somme de puissances.</description>
     </item>
     <item>
       <title>Variables</title>
-      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/index.html</link>
+      <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/index.html</link>
       <pubDate>Tue, 20 Jan 2026 10:03:03 -0500</pubDate>
-      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/index.html</guid>
-      <description>Les Variables : Gérer la mémoire Pour un ordinateur, une variable est une zone nommée dans la mémoire vive (RAM) où l’on stocke une information pour la réutiliser plus tard.&#xA;1. L’Analogie de la Boîte Imaginez la mémoire de l’ordinateur comme un immense entrepôt rempli de casiers. Pour utiliser un casier, vous avez besoin de deux choses :&#xA;Une étiquette (le nom de la variable) pour le retrouver. Un contenu (la valeur) rangé à l’intérieur.</description>
+      <guid>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/index.html</guid>
+      <description>Les Variables : Gérer la mémoire Pour un ordinateur, une variable est une zone nommée dans la mémoire vive (RAM) où l’on stocke une information pour la réutiliser plus tard.&#xA;1. L’Analogie de la Boîte Imaginez la mémoire de l’ordinateur comme un immense entrepôt rempli de casiers. Pour utiliser un casier, vous avez besoin de deux choses :&#xA;Une étiquette (le nom de la variable) pour le retrouver. Un contenu (la valeur) rangé à l’intérieur. Syntaxe de l’assignation En Python, on utilise l’opérateur = pour lier un nom à une valeur.</description>
     </item>
   </channel>
 </rss>

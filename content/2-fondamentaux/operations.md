@@ -1,7 +1,7 @@
 +++
 date = '2026-01-20T09:53:45-05:00'
-title = 'Operations'
-weight = 10
+title = 'Opérations'
+weight = 21
 +++
 ## Les Opérations Arithmétiques
 

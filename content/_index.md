@@ -7,9 +7,9 @@ type = "home"
 
 ## Plans de cours
 
-:clipboard: Maxime Fournier  : <a href="/420-SN1-RE/plan420111.pdf" target="_blanck">Plan de cours</a>
+:clipboard: Maxime Fournier  : <a href="/420-SN1-RE/plan420SN1RE_Max.pdf" target="_blanck">Plan de cours</a>
 
-:clipboard: Philip Higgins  : <a href="/420-SN1-RE/plan420111_Sam.pdf" target="_blanck">Plan de cours</a>
+:clipboard: Philip Higgins  : <a href="" target="_blanck">Plan de cours</a>
 
 
 ***
@@ -17,7 +17,7 @@ type = "home"
 ## Horaire et disponibilités des enseignants
 :heavy_check_mark: Maxime Fournier  : <a href="/420-SN1-RE/horaire_Maxime-hiv2026.pdf" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
 
-:heavy_check_mark: Philip Higgins  : <a href="/420-SN1-RE/horaire_Samuel_Aut2025.pdf" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
+:heavy_check_mark: Philip Higgins  : <a href="" target="_blanck">Lien vers mon horaire et mes disponibilités</a>
 
 ***
 

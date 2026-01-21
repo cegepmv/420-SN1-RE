@@ -1,6 +1,7 @@
 +++
 title = "Bibliotheque"
 type = "chapter"
+draft = true
 weight = 9
 +++
 

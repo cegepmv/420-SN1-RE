@@ -1,11 +1,12 @@
 +++
 date = '2026-01-20T12:01:45-05:00'
-title = 'Interaction Utilisateur'
+title = 'Intéraction Utilisateur'
+weight = 24
 +++
 
 ## Interagir avec l'utilisateur
 
-Un programme est rarement utile s'il ne communique pas ses résultats ou s'il ne pose pas de questions. Pour cela, nous utilisons deux fonctions de base dans le terminal.
+Un programme doit souvent poser des questions et communiquer des réponses/résultats. Pour cela, nous utilisons deux fonctions de base dans le terminal.
 
 ---
 

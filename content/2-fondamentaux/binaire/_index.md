@@ -1,6 +1,7 @@
 +++
 date = '2026-01-20T10:17:02-05:00'
 title = 'Binaire'
+weight = 22
 +++
 
 ## Comprendre le Binaire : Compter avec des interrupteurs

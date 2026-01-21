@@ -1,6 +1,7 @@
 +++
-title = "Regle"
+title = "Règles & conventions"
 type = "chapter"
+draft = true
 weight = 4
 +++
 

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Variables :: Introduction à la programmation</title>
-    <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/index.html</link>
-    <description>Les Variables : Gérer la mémoire Pour un ordinateur, une variable est une zone nommée dans la mémoire vive (RAM) où l’on stocke une information pour la réutiliser plus tard.&#xA;1. L’Analogie de la Boîte Imaginez la mémoire de l’ordinateur comme un immense entrepôt rempli de casiers. Pour utiliser un casier, vous avez besoin de deux choses :&#xA;Une étiquette (le nom de la variable) pour le retrouver. Un contenu (la valeur) rangé à l’intérieur.</description>
+    <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/index.html</link>
+    <description>Les Variables : Gérer la mémoire Pour un ordinateur, une variable est une zone nommée dans la mémoire vive (RAM) où l’on stocke une information pour la réutiliser plus tard.&#xA;1. L’Analogie de la Boîte Imaginez la mémoire de l’ordinateur comme un immense entrepôt rempli de casiers. Pour utiliser un casier, vous avez besoin de deux choses :&#xA;Une étiquette (le nom de la variable) pour le retrouver. Un contenu (la valeur) rangé à l’intérieur. Syntaxe de l’assignation En Python, on utilise l’opérateur = pour lier un nom à une valeur.</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
     <lastBuildDate>Tue, 20 Jan 2026 12:01:45 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Constantes</title>
-      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/constantes/index.html</link>
+      <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/constantes/index.html</link>
       <pubDate>Tue, 20 Jan 2026 10:19:57 -0500</pubDate>
-      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/constantes/index.html</guid>
-      <description>Constantes Dans un programme scientifique, certaines valeurs ne devraient jamais changer.&#xA;1. Les Constantes - standard En Python, il n’existe pas de “vraies” constantes protégées par le langage (contrairement au C++ ou au Java, d’autres langages de programmation). Par convention, les programmeurs utilisent des MAJUSCULES pour indiquer qu’une valeur ne doit pas être modifiée.&#xA;Pourquoi les utiliser ? Pour éviter les “nombres magiques” dans le code. Il est plus clair d’écrire GRAVITÉ que d’utiliser 9.</description>
+      <guid>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/constantes/index.html</guid>
+      <description>Constantes Dans un programme scientifique, certaines valeurs ne devraient jamais changer.&#xA;1. Les Constantes - standard En Python, il n’existe pas de “vraies” constantes protégées par le langage (contrairement au C++ ou au Java, d’autres langages de programmation). Par convention, les programmeurs utilisent des MAJUSCULES pour indiquer qu’une valeur ne doit pas être modifiée.&#xA;Pourquoi les utiliser ? Pour éviter les “nombres magiques” dans le code. Il est plus clair d’écrire GRAVITÉ que d’utiliser 9.81 à dix endroits différents.</description>
     </item>
     <item>
       <title>Types</title>
-      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/types/index.html</link>
+      <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/types/index.html</link>
       <pubDate>Tue, 20 Jan 2026 10:17:46 -0500</pubDate>
-      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/types/index.html</guid>
-      <description>1. Les types numériques C’est ce que vous utiliserez le plus pour vos calculs de physique et de statistiques.&#xA;Type Python Nom Description Exemple int Entier Nombres sans virgule (positifs ou négatifs). 10, -5, 0 float Flottant Nombres à virgule (précision scientifique). 3.14, -0.001, 2.0 str Chaîne Texte (lettres, chiffres, symboles). &#34;Vitesse&#34;, &#39;A&#39; bool Booléen Valeurs logiques (Vrai ou Faux). True, False Attention : Pour Python, 2 est un int, mais 2.</description>
+      <guid>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/types/index.html</guid>
+      <description>1. Les types numériques C’est ce que vous utiliserez le plus pour vos calculs de physique et de statistiques.&#xA;Type Python Nom Description Exemple int Entier Nombres sans virgule (positifs ou négatifs). 10, -5, 0 float Flottant Nombres à virgule (précision scientifique). 3.14, -0.001, 2.0 str Chaîne Texte (lettres, chiffres, symboles). &#34;Vitesse&#34;, &#39;A&#39; bool Booléen Valeurs logiques (Vrai ou Faux). True, False Attention : Pour Python, 2 est un int, mais 2.0 est un float. Même si la valeur mathématique est la même, leur représentation en mémoire est totalement différente !</description>
     </item>
     <item>
       <title>Chaines</title>
-      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/chaines/index.html</link>
+      <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/chaines/index.html</link>
       <pubDate>Tue, 20 Jan 2026 10:03:20 -0500</pubDate>
-      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/chaines/index.html</guid>
-      <description>Les Chaînes de Caractères (Strings) Une chaîne de caractères, notée str en Python, est une suite de symboles (lettres, chiffres, espaces, ponctuation) entourée de guillemets.&#xA;1. Définition et Syntaxe Vous pouvez utiliser des guillemets simples &#39; ou doubles &#34; :&#xA;laboratoire = &#34;Physique 1&#34; unite = &#39;mètres par seconde&#39; L’immuabilité (Concept important) En Python, les chaînes sont immuables. Cela signifie qu’une fois créée, vous ne pouvez pas modifier une lettre à l’intérieur de la “boîte”.</description>
+      <guid>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/chaines/index.html</guid>
+      <description>Les Chaînes de Caractères (Strings) Une chaîne de caractères, notée str en Python, est une suite de symboles (lettres, chiffres, espaces, ponctuation) entourée de guillemets.&#xA;1. Définition et Syntaxe Vous pouvez utiliser des guillemets simples &#39; ou doubles &#34; :&#xA;laboratoire = &#34;Physique 1&#34; unite = &#39;mètres par seconde&#39; L’immuabilité (Concept important) En Python, les chaînes sont immuables. Cela signifie qu’une fois créée, vous ne pouvez pas modifier une lettre à l’intérieur de la “boîte”. Si vous transformez la chaîne, Python en crée simplement une nouvelle ailleurs en mémoire.</description>
     </item>
     <item>
-      <title>Interaction Utilisateur</title>
-      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/interaction-utilisateur/index.html</link>
+      <title>Intéraction Utilisateur</title>
+      <link>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/interaction-utilisateur/index.html</link>
       <pubDate>Tue, 20 Jan 2026 12:01:45 -0500</pubDate>
-      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/variables/interaction-utilisateur/index.html</guid>
-      <description>Interagir avec l’utilisateur Un programme est rarement utile s’il ne communique pas ses résultats ou s’il ne pose pas de questions. Pour cela, nous utilisons deux fonctions de base dans le terminal.&#xA;1. La fonction print() : Afficher des données La fonction print() envoie des informations vers la sortie standard (votre terminal).&#xA;Plusieurs arguments Vous pouvez passer plusieurs éléments à print(), séparés par des virgules. Python ajoutera automatiquement un espace entre eux.</description>
+      <guid>http://localhost:36767/420-SN1-RE/2-fondamentaux/variables/interaction-utilisateur/index.html</guid>
+      <description>Interagir avec l’utilisateur Un programme doit souvent poser des questions et communiquer des réponses/résultats. Pour cela, nous utilisons deux fonctions de base dans le terminal.&#xA;1. La fonction print() : Afficher des données La fonction print() envoie des informations vers la sortie standard (votre terminal).&#xA;Plusieurs arguments Vous pouvez passer plusieurs éléments à print(), séparés par des virgules. Python ajoutera automatiquement un espace entre eux.&#xA;nom = &#34;Mars&#34; gravite = 3.71 print(&#34;La gravité sur&#34;, nom, &#34;est de&#34;, gravite, &#34;m/s².&#34;) Paramètres utiles sep : Modifier le séparateur entre les éléments (par défaut un espace). end : Modifier ce qui s’affiche à la fin (par défaut un saut de ligne \n). print(&#34;Chargement&#34;, end=&#34;...&#34;) print(&#34;Terminé&#34;) # Affiche: Chargement...Terminé (sur la même ligne) 2. La fonction input() : Récupérer des données La fonction input() met le programme en pause et attend que l’utilisateur tape quelque chose au clavier et appuie sur Entrée.</description>
     </item>
   </channel>
 </rss>
