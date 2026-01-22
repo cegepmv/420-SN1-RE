@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programmation en sciences :: Introduction à la programmation</title>
+    <link>http://localhost:1313/420-SN1-RE/index.html</link>
+    <description>Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;📋 Philip Higgins : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;✔️ Philip Higgins : Lien vers mon horaire et mes disponibilités&#xA;Calendrier des évaluations Nom de l’évaluation Pondération Date de l’évaluation Mini-Test 1 10 % Semaine 4 Examen Intra 25 % Semaine 8 Mini-Test 2 10 % Semaine 11 Projet 25 % Semaine 13-14 Examen Final 30 % ESO</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Wed, 21 Jan 2026 10:51:08 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/420-SN1-RE/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/420-SN1-RE/1-introduction/index.html</link>
+      <pubDate>Tue, 20 Jan 2026 11:04:07 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/1-introduction/index.html</guid>
+      <description>Python est le langage n°1 en 2026 selon l’indice TIOBE, devançant tous ses concurrents grâce à sa polyvalence. Python est multiplateforme : Il fonctionne parfaitement sur Windows, macOS, Linux, et même sur des microcontrôleurs (comme le Raspberry Pi ou l’ESP32). Une syntaxe ultra-simple : Contrairement à Java ou C++, Python se lit presque comme de l’anglais. C’est le langage idéal pour débuter car il nécessite moins de lignes de code pour accomplir la même tâche. Polyvalence extrême : Que vous fassiez de l’intelligence artificielle, du web ou de la finance, Python possède une bibliothèque pour tout. Domaines d’utilisation : Intelligence Artificielle &amp; Data Science : Le leader absolu (TensorFlow, PyTorch, Pandas). Développement Web : Création de sites robustes avec Django ou Flask. Automatisation : Idéal pour créer des scripts qui automatisent des tâches répétitives. Calcul scientifique : Utilisé par les chercheurs et ingénieurs du monde entier. Cybersécurité : Outil de prédilection pour le hacking éthique et l’analyse de réseaux. Qu’est-ce que Python ? Python est un langage de programmation interprété, orienté objet et de haut niveau. Sa philosophie repose sur la lisibilité du code. Contrairement à Java qui doit être compilé en “bytecode”, Python est exécuté ligne par ligne par un interpréteur, ce qui rend le cycle de développement et de test beaucoup plus rapide pour le développeur.</description>
+    </item>
+    <item>
+      <title>Fondamentaux</title>
+      <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/index.html</link>
+      <pubDate>Wed, 21 Jan 2026 09:26:35 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/index.html</guid>
+      <description>Introduction aux Variables En mathématiques ou en physique, vous manipulez des variables comme $x$, $y$ ou $g$ pour représenter des valeurs dans une équation. En informatique, une variable est un concept plus concret : c’est un emplacement réservé dans la mémoire vive (RAM) de l’ordinateur.&#xA;Pourquoi avons-nous besoin de variables ? Un programme doit être capable de :&#xA;Mémoriser des informations (ex: le résultat d’une mesure de laboratoire). Transformer ces données (ex: convertir des Celsius en Kelvin). Réutiliser ces valeurs à plusieurs endroits sans avoir à les retaper. Ce que nous allons couvrir Dans ce chapitre, nous allons explorer :</description>
+    </item>
+    <item>
+      <title>Exercices</title>
+      <link>http://localhost:1313/420-SN1-RE/13-exercices/index.html</link>
+      <pubDate>Wed, 21 Jan 2026 10:51:08 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/13-exercices/index.html</guid>
+      <description>Planification des Exercices - Session 2026 Semaine Pages du Manuel Numéros des Exercices Semaine 1 27 et 28 1 à 13 Semaine 2 Semaine 3 Semaine 4 Semaine 5 Semaine 6 Semaine 7 Semaine 8 Semaine 9 Semaine 10 Semaine 11 Semaine 12 Semaine 13 Semaine 14 Semaine 15</description>
+    </item>
+  </channel>
+</rss>
