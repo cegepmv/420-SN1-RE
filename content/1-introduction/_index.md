@@ -57,10 +57,4 @@ sudo apt install python3 python3-pip
 
 <div style="color:red">POUR MACOS</div>
 
-Utilisez le gestionnaire de paquets Homebrew pour une gestion simplifiée :
-
-```bash
-brew install python
-
-```
-*Je n'ai pas de Mac alors je n'ai pas pu tester.
+1. Allez sur le site officiel [python.org](https://www.python.org/downloads/).
