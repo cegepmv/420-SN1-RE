@@ -1,13 +1,18 @@
 +++
 title = "Fonctions"
 type = "chapter"
-draft = true
 weight = 3
 +++
 
 ---
 
-## 2. Les Docstrings (Chaînes de documentation)
+## 0. Pages 46 à 58 du manuel
+
+Nous ne verrons pas les tests unitaires. Vous pouvez lire si vous voulez, mais ce ne sera pas évalué.
+
+---
+
+## 1. Les Docstrings (Chaînes de documentation)
 
 C'est une fonctionnalité spécifique à Python pour documenter les fonctions, les classes et les modules. Contrairement aux commentaires classiques, les docstrings sont stockées dans l'attribut `__doc__` et peuvent être extraites par des outils de documentation.
 
@@ -25,22 +30,7 @@ def calculer_aire(rayon):
 
 ```
 
----
-## 2. La Portée (Scope)
-
-La **portée** définit où une variable est "visible" et utilisable dans votre code.
-
-### Variables Locales
-Une variable créée à l'intérieur d'un bloc spécifique (comme une fonction) est locale. Elle n'existe que là. C'est comme un brouillon de calcul que vous jetez après usage.
-
-### Variables Globales
-Une variable définie tout en haut de votre script, en dehors de tout bloc, est **globale**. Elle peut être lue de n'importe où dans le fichier.
-
-[Image showing the difference between global scope (the whole house) and local scope (one specific room)]
-
----
-
-## 3. Le mot-clé `global`
+## 2. Le mot-clé `global`
 
 Si vous avez besoin de **modifier** une variable globale à l'intérieur d'une fonction, Python vous oblige à déclarer explicitement que vous savez ce que vous faites avec le mot-clé `global`.
 

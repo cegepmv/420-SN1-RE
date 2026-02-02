@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Règles &amp; conventions :: Introduction à la programmation</title>
+    <link>http://localhost:1313/420-SN1-RE/4-regle/index.html</link>
+    <description>1. L’Indentation et la Mise en Page C’est la base visuelle du langage.&#xA;Espaces, pas de tabulations : Utilise toujours 4 espaces par niveau d’indentation (Un tab normal). Longueur de ligne : Limite tes lignes à un maximum de 79 caractères. Cela permet d’ouvrir deux fichiers côte à côte sans scroller horizontalement. Lignes vides : * Sépare les fonctions et les classes de haut niveau par deux lignes vides. Sépare les méthodes à l’intérieur d’une classe par une seule ligne vide. 2. Les Espaces Blancs (Le “Bruit” Visuel) Évite de surcharger ton code d’espaces inutiles :</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <atom:link href="http://localhost:1313/420-SN1-RE/4-regle/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>
