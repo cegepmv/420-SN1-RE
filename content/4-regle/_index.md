@@ -11,8 +11,7 @@ C'est la base visuelle du langage.
     
 * **Espaces, pas de tabulations :** Utilise toujours **4 espaces** par niveau d'indentation (Un tab normal).
 * **Longueur de ligne :** Limite tes lignes à un maximum de **79 caractères**. Cela permet d'ouvrir deux fichiers côte à côte sans scroller horizontalement.
-* **Lignes vides :** * Sépare les fonctions et les classes de haut niveau par **deux lignes vides**.
-* Sépare les méthodes à l'intérieur d'une classe par **une seule ligne vide**.
+* Sépare les fonctions par **une seule ligne vide**.
 
 
 
@@ -41,9 +40,7 @@ C'est ici que l'on reconnaît un développeur Python aguerri :
 | Type | Style | Exemple |
 | --- | --- | --- |
 | **Variables / Fonctions** | `snake_case` (minuscules et underscores) | `ma_variable`, `calculer_total()` |
-| **Classes** | `PascalCase` (majuscule à chaque mot) | `UtilisateurProfil`, `MaClasse` |
 | **Constantes** | `UPPER_CASE` (tout en majuscules) | `PI_VALEUR`, `MAX_TENTATIVES` |
-| **Privé (interne)** | Un underscore au début | `_variable_interne` |
 
 ## 4. Les Imports
 
