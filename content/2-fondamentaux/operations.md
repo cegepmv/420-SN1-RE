@@ -21,7 +21,7 @@ La plupart des opérateurs sont identiques à ceux que vous utilisez en mathéma
 | Exposant | `**` | `10 ** 2` | `100` |
 
 
-> **Attention** : En Python, l'exposant est `**`. Le symbole `^` existe mais il sert à la logique binaire (XOR). Pour calculer {{< math >}}$E = mc^2${{< /math >}}, on écrira `E = m * c**2`.
+> **Attention** : En Python, l'exposant est `**`. Le symbole `^` existe mais il sert à la logique binaire (XOR). Pour calculer {{< math >}}$E = mc^2${{< /math >}}, on écrira `E = m * c ** 2`.
 
 ---
 
