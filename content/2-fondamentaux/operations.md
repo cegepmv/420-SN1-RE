@@ -63,7 +63,7 @@ Python respecte fidèlement les règles d'algèbre que vous voyez en calcul diff
 
 **Exemple :**
 $$x = 2 + 3 \times 4^2$$
-En Python : `2 + 3 * 4**2` donnera **50** (car $3 \times 16 = 48$, puis $+ 2$).
+En Python : `2 + 3 * 4 ** 2` donnera **50** (car $3 \times 16 = 48$, puis $+ 2$).
 
 > **Conseil de prof** : En cas de doute, utilisez des parenthèses. C'est plus lisible pour vous et pour la personne qui relira votre rapport de labo.
 
@@ -89,6 +89,6 @@ Traduisez cette formule en Python pour une masse $m = 10$ kg et une vitesse $v =
 m = 10
 v = 5
 # Votre code ici :
-Ec = 0.5 * m * v**2
+Ec = 0.5 * m * v ** 2
 print(f"L'énergie cinétique est de {Ec} Joules")
 ```
