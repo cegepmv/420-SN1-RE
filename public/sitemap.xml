@@ -5,18 +5,42 @@
     <lastmod>2026-01-20T11:04:07-05:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/conditions/index.html</loc>
+    <lastmod>2026-02-11T07:05:16-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/index.html</loc>
     <lastmod>2026-01-21T09:26:35-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/if-elif-else/index.html</loc>
+    <lastmod>2026-02-11T07:05:28-05:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/3-fonctions/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/boucles-for/index.html</loc>
+    <lastmod>2026-02-11T07:08:17-05:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-SN1-RE/4-regle/index.html</loc>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/boucles-while/index.html</loc>
+    <lastmod>2026-02-11T07:08:33-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/for-imbrique/index.html</loc>
+    <lastmod>2026-02-11T07:08:50-05:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/1-introduction/ordis/index.html</loc>
     <lastmod>2026-01-14T13:11:43-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/index.html</loc>
+    <lastmod>2026-02-11T07:08:50-05:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/13-exercices/index.html</loc>
@@ -64,7 +88,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/index.html</loc>
-    <lastmod>2026-01-21T10:51:08-05:00</lastmod>
+    <lastmod>2026-02-11T07:08:50-05:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/erreurs/index.html</loc>

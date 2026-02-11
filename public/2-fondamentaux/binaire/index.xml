@@ -13,7 +13,7 @@
       <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/erreurs/index.html</link>
       <pubDate>Tue, 20 Jan 2026 10:52:01 -0500</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/erreurs/index.html</guid>
-      <description>Les Flottants : L’incertitude numérique En mécanique ou en physique, vous savez qu’une mesure n’est jamais infiniment précise. En informatique, c’est la même chose pour les nombres à virgule, appelés flottants (float).&#xA;L’ordinateur utilise la norme IEEE 754 pour stocker ces nombres dans un espace fini (64 bits). Cette limitation physique entraîne des comportements qui peuvent fausser vos calculs scientifiques si vous n’y prenez pas garde.&#xA;1. Le choc du 0.1 + 0.2 Testez ceci directement dans votre terminal Python :</description>
+      <description>Les Flottants : L’incertitude numérique En mécanique ou en physique, vous savez qu’une mesure n’est jamais infiniment précise. En informatique, c’est la même chose pour les nombres à virgule, appelés flottants (float).&#xA;L’ordinateur utilise la norme IEEE 754 pour stocker ces nombres dans un espace fini (64 bits). Cette limitation physique entraîne des comportements qui peuvent fausser vos calculs scientifiques si vous n’y prenez pas garde.&#xA;1. Le choc du 0.</description>
     </item>
   </channel>
 </rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Structure De Controle :: Introduction à la programmation</title>
+    <link>http://localhost:1313/420-SN1-RE/5-structure-de-controle/index.html</link>
+    <description>Jusqu’à présent, vos programmes Python étaient linéaires : l’ordinateur exécutait la ligne 1, puis la 2, puis la 3, du haut vers le bas, sans jamais se poser de questions.&#xA;En sciences, la réalité est rarement linéaire. Les structures de contrôle permettent de modifier ce trajet.&#xA;1.1 Qu’est-ce qu’une structure de contrôle ? Imaginez que vous programmez un robot qui doit analyser des échantillons d’eau. Il y a deux façons principales de briser la ligne droite :</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Wed, 11 Feb 2026 07:08:50 -0500</lastBuildDate>
+    <atom:link href="http://localhost:1313/420-SN1-RE/5-structure-de-controle/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conditions</title>
+      <link>http://localhost:1313/420-SN1-RE/5-structure-de-controle/conditions/index.html</link>
+      <pubDate>Wed, 11 Feb 2026 07:05:16 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/5-structure-de-controle/conditions/index.html</guid>
+      <description>+++ title = “Conditions et Booléens” weight = 1 +++&#xA;Avant de pouvoir dire à l’ordinateur de “choisir”, il faut lui apprendre à “comparer”.&#xA;1. Le type Booléen (bool) En programmation, une condition est une expression qui ne peut avoir que deux états : Vrai (True) ou Faux (False). C’est ce qu’on appelle un booléen, en l’honneur du mathématicien George Boole.&#xA;2. Les opérateurs de comparaison Pour poser une question à Python, on utilise des opérateurs de comparaison.</description>
+    </item>
+    <item>
+      <title>If Elif Else</title>
+      <link>http://localhost:1313/420-SN1-RE/5-structure-de-controle/if-elif-else/index.html</link>
+      <pubDate>Wed, 11 Feb 2026 07:05:28 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/5-structure-de-controle/if-elif-else/index.html</guid>
+      <description>La structure conditionnelle est le “système nerveux” de votre programme. C’est elle qui permet de passer d’une calculatrice linéaire à un logiciel capable d’analyser des données et de prendre des décisions.&#xA;1. La syntaxe fondamentale : : et Indentation En Python, la hiérarchie du code ne dépend pas d’accolades, mais de la mise en page. C’est ce qu’on appelle la syntaxe par indentation.&#xA;Les deux-points (:) : Ils annoncent à Python qu’un bloc de code spécifique commence.</description>
+    </item>
+    <item>
+      <title>Boucles For</title>
+      <link>http://localhost:1313/420-SN1-RE/5-structure-de-controle/boucles-for/index.html</link>
+      <pubDate>Wed, 11 Feb 2026 07:08:17 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/5-structure-de-controle/boucles-for/index.html</guid>
+      <description>6. La boucle for : Automatiser la répétition La boucle for est utilisée lorsque vous savez exactement combien de fois une opération doit être répétée. C’est l’outil parfait pour traiter des séries de données ou simuler des étapes temporelles fixes.&#xA;L’outil range() : Le générateur de pas Pour dire à Python combien de fois boucler, on utilise souvent la fonction range(). Elle crée une séquence de nombres qui sert de guide à la boucle.</description>
+    </item>
+    <item>
+      <title>Boucles While</title>
+      <link>http://localhost:1313/420-SN1-RE/5-structure-de-controle/boucles-while/index.html</link>
+      <pubDate>Wed, 11 Feb 2026 07:08:33 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/5-structure-de-controle/boucles-while/index.html</guid>
+      <description>7. La boucle while : Répéter jusqu’à un objectif Contrairement à la boucle for qui parcourt une séquence prédéterminée, la boucle while (Tant que) répète un bloc de code aussi longtemps qu’une condition logique reste vraie.&#xA;C’est l’outil idéal pour les processus itératifs où l’on ne sait pas d’avance combien d’étapes seront nécessaires pour atteindre un résultat (ex: atteindre un équilibre chimique ou une précision numérique).&#xA;Exemple : La demi-vie radioactive Imaginons que vous étudiez un isotope.</description>
+    </item>
+    <item>
+      <title>For Imbrique</title>
+      <link>http://localhost:1313/420-SN1-RE/5-structure-de-controle/for-imbrique/index.html</link>
+      <pubDate>Wed, 11 Feb 2026 07:08:50 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/5-structure-de-controle/for-imbrique/index.html</guid>
+      <description>À venir bientôt!</description>
+    </item>
+  </channel>
+</rss>

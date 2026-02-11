@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="fr-ca" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="html">
+  <head><script src="/420-SN1-RE/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=420-SN1-RE/livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.131.0">
+    <meta name="generator" content="Relearn 8.0.0+9803d5122ebb3276acea823f476e9eb44f607862">
+    <meta name="description" content="La structure conditionnelle est le “système nerveux” de votre programme. C’est elle qui permet de passer d’une calculatrice linéaire à un logiciel capable d’analyser des données et de prendre des décisions.
+1. La syntaxe fondamentale : : et Indentation En Python, la hiérarchie du code ne dépend pas d’accolades, mais de la mise en page. C’est ce qu’on appelle la syntaxe par indentation.
+Les deux-points (:) : Ils annoncent à Python qu’un bloc de code spécifique commence.">
+    <meta name="author" content="">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="If Elif Else :: Introduction à la programmation">
+    <meta name="twitter:description" content="La structure conditionnelle est le “système nerveux” de votre programme. C’est elle qui permet de passer d’une calculatrice linéaire à un logiciel capable d’analyser des données et de prendre des décisions.
+1. La syntaxe fondamentale : : et Indentation En Python, la hiérarchie du code ne dépend pas d’accolades, mais de la mise en page. C’est ce qu’on appelle la syntaxe par indentation.
+Les deux-points (:) : Ils annoncent à Python qu’un bloc de code spécifique commence.">
+    <meta property="og:url" content="http://localhost:1313/420-SN1-RE/5-structure-de-controle/if-elif-else/index.html">
+    <meta property="og:site_name" content="Introduction à la programmation">
+    <meta property="og:title" content="If Elif Else :: Introduction à la programmation">
+    <meta property="og:description" content="La structure conditionnelle est le “système nerveux” de votre programme. C’est elle qui permet de passer d’une calculatrice linéaire à un logiciel capable d’analyser des données et de prendre des décisions.
+1. La syntaxe fondamentale : : et Indentation En Python, la hiérarchie du code ne dépend pas d’accolades, mais de la mise en page. C’est ce qu’on appelle la syntaxe par indentation.
+Les deux-points (:) : Ils annoncent à Python qu’un bloc de code spécifique commence.">
+    <meta property="og:locale" content="fr_ca">
+    <meta property="og:type" content="article">
+    <meta property="article:section" content="Structure De Controle">
+    <meta property="article:published_time" content="2026-02-11T07:05:28-05:00">
+    <meta property="article:modified_time" content="2026-02-11T07:05:28-05:00">
+    <meta itemprop="name" content="If Elif Else :: Introduction à la programmation">
+    <meta itemprop="description" content="La structure conditionnelle est le “système nerveux” de votre programme. C’est elle qui permet de passer d’une calculatrice linéaire à un logiciel capable d’analyser des données et de prendre des décisions.
+1. La syntaxe fondamentale : : et Indentation En Python, la hiérarchie du code ne dépend pas d’accolades, mais de la mise en page. C’est ce qu’on appelle la syntaxe par indentation.
+Les deux-points (:) : Ils annoncent à Python qu’un bloc de code spécifique commence.">
+    <meta itemprop="datePublished" content="2026-02-11T07:05:28-05:00">
+    <meta itemprop="dateModified" content="2026-02-11T07:05:28-05:00">
+    <meta itemprop="wordCount" content="621">
+    <title>If Elif Else :: Introduction à la programmation</title>
+    <link href="/420-SN1-RE/images/favicon.png?1770815922" rel="icon" type="image/png">
+    <link href="/420-SN1-RE/css/auto-complete/auto-complete.min.css?1770815922" rel="stylesheet">
+    <script src="/420-SN1-RE/js/auto-complete/auto-complete.min.js?1770815922" defer></script>
+    <script src="/420-SN1-RE/js/search-lunr.js?1770815922" defer></script>
+    <script src="/420-SN1-RE/js/search.js?1770815922" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="/420-SN1-RE/searchindex.en.js?1770815922";
+    </script>
+    <script src="/420-SN1-RE/js/lunr/lunr.min.js?1770815922" defer></script>
+    <script src="/420-SN1-RE/js/lunr/lunr.stemmer.support.min.js?1770815922" defer></script>
+    <script src="/420-SN1-RE/js/lunr/lunr.multi.min.js?1770815922" defer></script>
+    <script src="/420-SN1-RE/js/lunr/lunr.fr.min.js?1770815922" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['fr'];
+    </script>
+    <link href="/420-SN1-RE/fonts/fontawesome/css/fontawesome-all.min.css?1770815922" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/420-SN1-RE/fonts/fontawesome/css/fontawesome-all.min.css?1770815922" rel="stylesheet"></noscript>
+    <link href="/420-SN1-RE/css/perfect-scrollbar/perfect-scrollbar.min.css?1770815922" rel="stylesheet">
+    <link href="/420-SN1-RE/css/theme.css?1770815922" rel="stylesheet">
+    <link href="/420-SN1-RE/css/format-html.css?1770815922" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.min = ``;
+      window.relearn.path='\/5-structure-de-controle\/if-elif-else\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='http:\/\/localhost:1313\/420-SN1-RE';
+      window.relearn.disableAnchorCopy=false;
+      window.relearn.disableAnchorScrolling=false;
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=true;
+      // legal
+      window.relearn.getItem = (s,n) => {return s.getItem(n)};
+      window.relearn.setItem = (s,n,v) => {return s.setItem(n,v)};
+      window.relearn.removeItem = (s,n) => {return s.removeItem(n)};
+      // translations
+      window.T_Copy_to_clipboard = `Copy to clipboard`;
+      window.T_Copied_to_clipboard = `Copied to clipboard!`;
+      window.T_Copy_link_to_clipboard = `Copy link to clipboard`;
+      window.T_Link_copied_to_clipboard = `Copied link to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-auto', 'zen-light', 'zen-dark', 'neon', 'learn' ];
+      window.relearn.customvariantname = "my-custom-variant";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.relearn.getItem(window.localStorage, window.relearn.absBaseUri + "/variant") ?? "";
+        if( variant == window.relearn.customvariantname ){
+        }else if( !variant || !window.relearn.themevariants.includes(variant) ){
+          variant = window.relearn.themevariants[0];
+          window.relearn.setItem(window.localStorage, window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+    </script><style>
+:root {
+    --MENU-WIDTH-S: 14.375rem;
+    --MENU-WIDTH-M: 14.375rem;
+    --MENU-WIDTH-L: 16rem;
+}
+</style>
+  </head>
+  <body class="mobile-support html" data-url="/420-SN1-RE/5-structure-de-controle/if-elif-else/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar">
+        <div class="topbar-wrapper">
+          <div class="topbar-sidebar-divider"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide"><button class="topbar-control" onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button>
+            </div>
+            <div class="topbar-button topbar-button-toc" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-list-alt"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#1-la-syntaxe-fondamentale---et-indentation">1. La syntaxe fondamentale : <code>:</code> et Indentation</a>
+      <ul>
+        <li><a href="#le-si-simple-if">Le &ldquo;Si&rdquo; simple (<code>if</code>)</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-le-choix-binaire-if-else">2. Le choix binaire (if-else)</a></li>
+    <li><a href="#3-les-choix-multiples-if-elif-else">3. Les choix multiples (if-elif-else)</a></li>
+    <li><a href="#4-limbrication">4. L&rsquo;imbrication</a></li>
+    <li><a href="#5-la-vérité-des-nombres-truthy-vs-falsy">5. La &ldquo;Vérité&rdquo; des nombres (Truthy vs Falsy)</a>
+      <ul>
+        <li><a href="#pourquoi-est-ce-utile-">Pourquoi est-ce utile ?</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-SN1-RE/index.html"><span itemprop="name">Programmation en sciences</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/420-SN1-RE/5-structure-de-controle/index.html"><span itemprop="name">Structure De Controle</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">If Elif Else</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-prev" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/5-structure-de-controle/conditions/index.html" title="Conditions (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-next" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show"><a class="topbar-control" href="/420-SN1-RE/5-structure-de-controle/boucles-for/index.html" title="Boucles For (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a>
+            </div>
+            <div class="topbar-button topbar-button-more" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show"><button class="topbar-control" onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable 5-structure-de-controle" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="if-elif-else">If Elif Else</h1>
+
+<p>La structure conditionnelle est le &ldquo;système nerveux&rdquo; de votre programme. C&rsquo;est elle qui permet de passer d&rsquo;une calculatrice linéaire à un logiciel capable d&rsquo;analyser des données et de prendre des décisions.</p>
+<h2 id="1-la-syntaxe-fondamentale---et-indentation">1. La syntaxe fondamentale : <code>:</code> et Indentation</h2>
+<p>En Python, la hiérarchie du code ne dépend pas d&rsquo;accolades, mais de la mise en page. C&rsquo;est ce qu&rsquo;on appelle la <strong>syntaxe par indentation</strong>.</p>
+<ul>
+<li><strong>Les deux-points (<code>:</code>)</strong> : Ils annoncent à Python qu&rsquo;un bloc de code spécifique commence.</li>
+<li><strong>L&rsquo;indentation</strong> : Le décalage vers la droite (généralement 4 espaces) indique quelles lignes appartiennent à la condition.</li>
+</ul>
+<h3 id="le-si-simple-if">Le &ldquo;Si&rdquo; simple (<code>if</code>)</h3>
+<p>C&rsquo;est la prise de décision de base. Si la condition est vraie, le code est exécuté. Si elle est fausse, le programme saute simplement par-dessus.</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">temperature</span> <span class="o">=</span> <span class="mi">25</span>
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">temperature</span> <span class="o">&gt;</span> <span class="mi">20</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;La réaction chimique s&#39;accélère.&#34;</span><span class="p">)</span></span></span></code></pre></div>
+<h2 id="2-le-choix-binaire-if-else">2. Le choix binaire (if-else)</h2>
+<p>Le <strong>else</strong> (Sinon) est le complément logique du <strong>if</strong>. Il permet de gérer deux issues mutuellement exclusives. C&rsquo;est l&rsquo;équivalent d&rsquo;un aiguillage sur une voie ferrée : le programme emprunte soit la voie A, soit la voie B.</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">concentration</span> <span class="o">=</span> <span class="mf">0.85</span>
+</span></span><span class="line"><span class="cl"><span class="n">seuil</span> <span class="o">=</span> <span class="mf">0.80</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">concentration</span> <span class="o">&lt;=</span> <span class="n">seuil</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Échantillon conforme.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Alerte : Concentration trop élevée !&#34;</span><span class="p">)</span></span></span></code></pre></div>
+<p><strong>Note technique :</strong> * Le <strong>else</strong> ne porte jamais de condition.</p>
+<ul>
+<li>Il sert de &ldquo;bac de récupération&rdquo; pour tout ce qui n&rsquo;a pas été capturé par le <code>if</code>.</li>
+<li>Il doit être parfaitement aligné verticalement avec son <code>if</code> pour que Python comprenne qu&rsquo;ils forment un duo.</li>
+</ul>
+<h2 id="3-les-choix-multiples-if-elif-else">3. Les choix multiples (if-elif-else)</h2>
+<p>Pour gérer des systèmes à plusieurs états (ex: les phases de la matière, les catégories de pH ou des paliers de bourses d&rsquo;études), on utilise <strong>elif</strong> (contraction de <em>else if</em>).</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">ph</span> <span class="o">=</span> <span class="mf">7.0</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">ph</span> <span class="o">&lt;</span> <span class="mi">7</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;La solution est acide.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">elif</span> <span class="n">ph</span> <span class="o">&gt;</span> <span class="mi">7</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;La solution est basique.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;La solution est neutre.&#34;</span><span class="p">)</span></span></span></code></pre></div>
+<p>L&rsquo;ordinateur évalue les conditions de haut en bas. <strong>Dès qu&rsquo;une condition est vraie</strong>, il exécute son bloc et <strong>ignore totalement</strong> le reste de la structure, même si d&rsquo;autres conditions plus bas auraient pu être vraies aussi. L&rsquo;ordre des conditions est donc primordial pour la logique scientifique.</p>
+<h2 id="4-limbrication">4. L&rsquo;imbrication</h2>
+<p>L&rsquo;imbrication consiste à placer une structure <code>if</code> à l&rsquo;intérieur d&rsquo;un autre bloc <code>if</code>. Cela permet de créer des filtres successifs. Par exemple, on peut vérifier si un instrument de mesure est calibré avant de vérifier si la donnée qu&rsquo;il transmet est dans les normes.</p>
+<div class="highlight wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="n">tension</span> <span class="o">=</span> <span class="mi">220</span>
+</span></span><span class="line"><span class="cl"><span class="n">appareil_allume</span> <span class="o">=</span> <span class="kc">True</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">if</span> <span class="n">appareil_allume</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="k">if</span> <span class="n">tension</span> <span class="o">&gt;</span> <span class="mi">230</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Surtension détectée !&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">    <span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">        <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;Fonctionnement normal.&#34;</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl"><span class="k">else</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">    <span class="nb">print</span><span class="p">(</span><span class="s2">&#34;L&#39;appareil est hors tension.&#34;</span><span class="p">)</span></span></span></code></pre></div>
+<blockquote>
+<p><strong>Conseil de débogage :</strong> Si votre programme affiche une <strong>IndentationError</strong>, vérifiez l&rsquo;alignement de vos <code>if</code>, <code>elif</code> et <code>else</code>. Un seul espace de décalage et Python ne sait plus quelle condition appartient à quel bloc. C&rsquo;est la cause numéro 1 de frustration chez les nouveaux programmeurs !</p>
+</blockquote>
+<hr>
+<h2 id="5-la-vérité-des-nombres-truthy-vs-falsy">5. La &ldquo;Vérité&rdquo; des nombres (Truthy vs Falsy)</h2>
+<p>En Python, il n&rsquo;y a pas que les comparaisons (comme <code>x &gt; 10</code>) qui peuvent servir de condition. Les nombres eux-mêmes ont une valeur logique intrinsèque.</p>
+<ul>
+<li><strong>Le chiffre 0</strong> est considéré comme <strong>Faux</strong> (<code>False</code>).</li>
+<li><strong>Tous les autres nombres</strong> (positifs ou négatifs, comme <code>5</code>, <code>-1</code> ou <code>3.14</code>) sont considérés comme <strong>Vrais</strong> (<code>True</code>).</li>
+</ul>
+<h3 id="pourquoi-est-ce-utile-">Pourquoi est-ce utile ?</h3>
+<p>Cela permet parfois d&rsquo;écrire du code plus court pour vérifier si une quantité existe. Par exemple, si vous comptez le nombre d&rsquo;impuretés dans un échantillon, une condition peut simplement vérifier si ce nombre est différent de zéro sans avoir à l&rsquo;écrire explicitement.</p>
+<blockquote>
+<p><strong>Analogie :</strong> C&rsquo;est comme un interrupteur. <code>0</code>, c&rsquo;est le courant coupé (Faux). N&rsquo;importe quel autre voltage, c&rsquo;est le courant qui passe (Vrai).</p>
+</blockquote>
+<p><strong>Défi :</strong> Selon vous, que se passe-t-il dans une analyse de pH si on utilise uniquement une série de <code>if</code> au lieu de <code>if-elif-else</code> ? Est-ce que l&rsquo;ordinateur pourrait afficher deux résultats contradictoires ?</p>
+
+  <footer class="footline">
+              <i class='fa-fw fas fa-calendar'></i> Feb 11, 2026
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <aside id="R-sidebar" class="default-animation">
+      <div id="R-header-topbar" class="default-animation"></div>
+      <div id="R-header-wrapper" class="default-animation">
+        <div id="R-header" class="default-animation">
+<a id="R-logo" 
+   style="display: flex; justify-content: center; align-items: center; text-decoration: none;" 
+   href="/420-SN1-RE/index.html">
+
+    <img src="/420-SN1-RE/images/logo.png" width="40" height="40" alt="logo" style="margin-right: 8px;">
+
+    <div style="display: flex; flex-direction: column; font-size: 130%; align-items: flex-start;">
+        <span>Introduction à</span>
+        <span>la programmation</span>
+    </div>
+</a>
+
+        </div>
+        <search><form action="/420-SN1-RE/search/index.html" method="get">
+          <div class="searchbox default-animation">
+            <button class="search-detail" type="submit" title="Search (CTRL+ALT+f)"><i class="fas fa-search"></i></button>
+            <label class="a11y-only" for="R-search-by">Search</label>
+            <input data-search-input id="R-search-by" name="search-by" class="search-by" type="search" placeholder="Search...">
+            <button class="search-clear" type="button" data-search-clear="" title="Clear search"><i class="fas fa-times" title="Clear search"></i></button>
+          </div>
+        </form></search>
+      </div>
+      <div id="R-homelinks" class="default-animation homelinks">
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-homelinks">
+          <ul class="space collapsible-menu">
+            <li class="" data-nav-id="/420-SN1-RE/index.html"><a class="padding" href="/420-SN1-RE/index.html"><i class="fa-fw fas fa-home"></i> Home</a></li>
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-headercontrols">
+          <ul class="">
+          </ul>
+        </div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+      </div>
+      <div id="R-content-wrapper" class="highlightable">
+        <div class="R-sidebarmenu R-shortcutmenu-main">
+          <ul class="enlarge morespace collapsible-menu">
+            <li class="" data-nav-id="/420-SN1-RE/1-introduction/index.html"><a class="padding" href="/420-SN1-RE/1-introduction/index.html">Introduction</a><ul id="R-subsections-1c923956455691612f1dbcc6d951d5eb" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-SN1-RE/2-fondamentaux/index.html"><a class="padding" href="/420-SN1-RE/2-fondamentaux/index.html">Fondamentaux</a><ul id="R-subsections-f9c0133bbe4849d9b11c65d1790731aa" class="collapsible-menu"></ul></li>
+            <li class="" data-nav-id="/420-SN1-RE/3-fonctions/index.html"><a class="padding" href="/420-SN1-RE/3-fonctions/index.html">Fonctions</a></li>
+            <li class="" data-nav-id="/420-SN1-RE/4-regle/index.html"><a class="padding" href="/420-SN1-RE/4-regle/index.html">Règles &amp; conventions</a></li>
+            <li class="parent " data-nav-id="/420-SN1-RE/5-structure-de-controle/index.html"><a class="padding" href="/420-SN1-RE/5-structure-de-controle/index.html">Structure De Controle</a><ul id="R-subsections-1922b87cbe346d32df623dbbd8a64b7f" class="collapsible-menu">
+            <li class="" data-nav-id="/420-SN1-RE/5-structure-de-controle/conditions/index.html"><a class="padding" href="/420-SN1-RE/5-structure-de-controle/conditions/index.html">Conditions</a></li>
+            <li class="active " data-nav-id="/420-SN1-RE/5-structure-de-controle/if-elif-else/index.html"><a class="padding" href="/420-SN1-RE/5-structure-de-controle/if-elif-else/index.html">If Elif Else</a></li>
+            <li class="" data-nav-id="/420-SN1-RE/5-structure-de-controle/boucles-for/index.html"><a class="padding" href="/420-SN1-RE/5-structure-de-controle/boucles-for/index.html">Boucles For</a></li>
+            <li class="" data-nav-id="/420-SN1-RE/5-structure-de-controle/boucles-while/index.html"><a class="padding" href="/420-SN1-RE/5-structure-de-controle/boucles-while/index.html">Boucles While</a></li>
+            <li class="" data-nav-id="/420-SN1-RE/5-structure-de-controle/for-imbrique/index.html"><a class="padding" href="/420-SN1-RE/5-structure-de-controle/for-imbrique/index.html">For Imbrique</a></li></ul></li>
+            <li class="" data-nav-id="/420-SN1-RE/13-exercices/index.html"><a class="padding" href="/420-SN1-RE/13-exercices/index.html">Exercices</a></li>
+          </ul>
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-shortcuts">
+          <ul class="space collapsible-menu">
+          </ul>
+        </div>
+        <div id="R-footer-margin"></div>
+        <div class="R-menu-divider default-animation">
+          <hr class="padding">
+        </div>
+        <div class="R-sidebarmenu R-shortcutmenu-footercontrols">
+          <ul class="">
+            <li class="R-variantswitcher">
+              <div class="padding menu-control">
+                <i class="fa-fw fas fa-paint-brush"></i>
+                <span>&nbsp;</span>
+                <div class="control-style">
+                  <label class="a11y-only" for="R-select-variant">Theme</label>
+                  <select id="R-select-variant">
+                    <option id="R-select-variant-relearn-auto" value="relearn-auto" selected>Relearn Light/Dark</option>
+                    <option id="R-select-variant-zen-light" value="zen-light">Zen Light</option>
+                    <option id="R-select-variant-zen-dark" value="zen-dark">Zen Dark</option>
+                    <option id="R-select-variant-neon" value="neon">Neon</option>
+                    <option id="R-select-variant-learn" value="learn">Learn</option>
+                  </select>
+                </div>
+                <div class="clear"></div>
+              </div>
+              <script>window.relearn.markVariant();</script>
+            </li>
+          </ul>
+        </div>
+<div id="R-footer"></div>
+      </div>
+    </aside>
+    <script src="/420-SN1-RE/js/clipboard/clipboard.min.js?1770815922" defer></script>
+    <script src="/420-SN1-RE/js/perfect-scrollbar/perfect-scrollbar.min.js?1770815922" defer></script>
+    <script src="/420-SN1-RE/js/theme.js?1770815922" defer></script>
+  </body>
+</html>

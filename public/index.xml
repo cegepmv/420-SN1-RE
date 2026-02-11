@@ -6,42 +6,49 @@
     <description>Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;📋 Philip Higgins : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;✔️ Philip Higgins : Lien vers mon horaire et mes disponibilités&#xA;Calendrier des évaluations Nom de l’évaluation Pondération Date de l’évaluation Mini-Test 1 10 % Semaine 4 Examen Intra 25 % Semaine 8 Mini-Test 2 10 % Semaine 11 Projet 25 % Semaine 13-14 Examen Final 30 % ESO</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Wed, 21 Jan 2026 10:51:08 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 11 Feb 2026 07:08:50 -0500</lastBuildDate>
     <atom:link href="http://localhost:1313/420-SN1-RE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
       <link>http://localhost:1313/420-SN1-RE/1-introduction/index.html</link>
       <pubDate>Tue, 20 Jan 2026 11:04:07 -0500</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/1-introduction/index.html</guid>
-      <description>Python est le langage n°1 en 2026 selon l’indice TIOBE, devançant tous ses concurrents grâce à sa polyvalence. Python est multiplateforme : Il fonctionne parfaitement sur Windows, macOS, Linux, et même sur des microcontrôleurs (comme le Raspberry Pi ou l’ESP32). Une syntaxe ultra-simple : Contrairement à Java ou C++, Python se lit presque comme de l’anglais. C’est le langage idéal pour débuter car il nécessite moins de lignes de code pour accomplir la même tâche. Polyvalence extrême : Que vous fassiez de l’intelligence artificielle, du web ou de la finance, Python possède une bibliothèque pour tout. Domaines d’utilisation : Intelligence Artificielle &amp; Data Science : Le leader absolu (TensorFlow, PyTorch, Pandas). Développement Web : Création de sites robustes avec Django ou Flask. Automatisation : Idéal pour créer des scripts qui automatisent des tâches répétitives. Calcul scientifique : Utilisé par les chercheurs et ingénieurs du monde entier. Cybersécurité : Outil de prédilection pour le hacking éthique et l’analyse de réseaux. Qu’est-ce que Python ? Python est un langage de programmation interprété, orienté objet et de haut niveau. Sa philosophie repose sur la lisibilité du code. Contrairement à Java qui doit être compilé en “bytecode”, Python est exécuté ligne par ligne par un interpréteur, ce qui rend le cycle de développement et de test beaucoup plus rapide pour le développeur.</description>
+      <description>Python est le langage n°1 en 2026 selon l’indice TIOBE, devançant tous ses concurrents grâce à sa polyvalence. Python est multiplateforme : Il fonctionne parfaitement sur Windows, macOS, Linux, et même sur des microcontrôleurs (comme le Raspberry Pi ou l’ESP32). Une syntaxe ultra-simple : Contrairement à Java ou C++, Python se lit presque comme de l’anglais. C’est le langage idéal pour débuter car il nécessite moins de lignes de code pour accomplir la même tâche.</description>
     </item>
     <item>
       <title>Fondamentaux</title>
       <link>http://localhost:1313/420-SN1-RE/2-fondamentaux/index.html</link>
       <pubDate>Wed, 21 Jan 2026 09:26:35 -0500</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/2-fondamentaux/index.html</guid>
-      <description>Introduction aux Variables En mathématiques ou en physique, vous manipulez des variables comme $x$, $y$ ou $g$ pour représenter des valeurs dans une équation. En informatique, une variable est un concept plus concret : c’est un emplacement réservé dans la mémoire vive (RAM) de l’ordinateur.&#xA;Pourquoi avons-nous besoin de variables ? Un programme doit être capable de :&#xA;Mémoriser des informations (ex: le résultat d’une mesure de laboratoire). Transformer ces données (ex: convertir des Celsius en Kelvin). Réutiliser ces valeurs à plusieurs endroits sans avoir à les retaper. Ce que nous allons couvrir Dans ce chapitre, nous allons explorer :</description>
+      <description>Introduction aux Variables En mathématiques ou en physique, vous manipulez des variables comme $x$, $y$ ou $g$ pour représenter des valeurs dans une équation. En informatique, une variable est un concept plus concret : c’est un emplacement réservé dans la mémoire vive (RAM) de l’ordinateur.&#xA;Pourquoi avons-nous besoin de variables ? Un programme doit être capable de :&#xA;Mémoriser des informations (ex: le résultat d’une mesure de laboratoire). Transformer ces données (ex: convertir des Celsius en Kelvin).</description>
     </item>
     <item>
       <title>Fonctions</title>
       <link>http://localhost:1313/420-SN1-RE/3-fonctions/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/3-fonctions/index.html</guid>
-      <description>0. Pages 46 à 58 du manuel Nous ne verrons pas les tests unitaires. Vous pouvez lire si vous voulez, mais ce ne sera pas évalué.&#xA;1. Les Docstrings (Chaînes de documentation) C’est une fonctionnalité spécifique à Python pour documenter les fonctions, les classes et les modules. Contrairement aux commentaires classiques, les docstrings sont stockées dans l’attribut __doc__ et peuvent être extraites par des outils de documentation.&#xA;def calculer_aire(rayon): &#34;&#34;&#34; Calcule l&#39;aire d&#39;un cercle à partir de son rayon. Args: rayon (float): Le rayon du cercle. Returns: float: L&#39;aire calculée. &#34;&#34;&#34; return 3.14159 * (rayon ** 2) 2. Le mot-clé global Si vous avez besoin de modifier une variable globale à l’intérieur d’une fonction, Python vous oblige à déclarer explicitement que vous savez ce que vous faites avec le mot-clé global.</description>
+      <description>0. Pages 46 à 58 du manuel Nous ne verrons pas les tests unitaires. Vous pouvez lire si vous voulez, mais ce ne sera pas évalué.&#xA;1. Les Docstrings (Chaînes de documentation) C’est une fonctionnalité spécifique à Python pour documenter les fonctions, les classes et les modules. Contrairement aux commentaires classiques, les docstrings sont stockées dans l’attribut __doc__ et peuvent être extraites par des outils de documentation.&#xA;def calculer_aire(rayon): &#34;&#34;&#34; Calcule l&#39;aire d&#39;un cercle à partir de son rayon.</description>
     </item>
     <item>
       <title>Règles &amp; conventions</title>
       <link>http://localhost:1313/420-SN1-RE/4-regle/index.html</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/4-regle/index.html</guid>
-      <description>1. L’Indentation et la Mise en Page C’est la base visuelle du langage.&#xA;Espaces, pas de tabulations : Utilise toujours 4 espaces par niveau d’indentation (Un tab normal). Longueur de ligne : Limite tes lignes à un maximum de 79 caractères. Cela permet d’ouvrir deux fichiers côte à côte sans scroller horizontalement. Lignes vides : * Sépare les fonctions et les classes de haut niveau par deux lignes vides. Sépare les méthodes à l’intérieur d’une classe par une seule ligne vide. 2. Les Espaces Blancs (Le “Bruit” Visuel) Évite de surcharger ton code d’espaces inutiles :</description>
+      <description>1. L’Indentation et la Mise en Page C’est la base visuelle du langage.&#xA;Espaces, pas de tabulations : Utilise toujours 4 espaces par niveau d’indentation (Un tab normal). Longueur de ligne : Limite tes lignes à un maximum de 79 caractères. Cela permet d’ouvrir deux fichiers côte à côte sans scroller horizontalement. Sépare les fonctions par une seule ligne vide. 2. Les Espaces Blancs (Le “Bruit” Visuel) Évite de surcharger ton code d’espaces inutiles :</description>
+    </item>
+    <item>
+      <title>Structure De Controle</title>
+      <link>http://localhost:1313/420-SN1-RE/5-structure-de-controle/index.html</link>
+      <pubDate>Wed, 11 Feb 2026 07:08:50 -0500</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/5-structure-de-controle/index.html</guid>
+      <description>Jusqu’à présent, vos programmes Python étaient linéaires : l’ordinateur exécutait la ligne 1, puis la 2, puis la 3, du haut vers le bas, sans jamais se poser de questions.&#xA;En sciences, la réalité est rarement linéaire. Les structures de contrôle permettent de modifier ce trajet.&#xA;1.1 Qu’est-ce qu’une structure de contrôle ? Imaginez que vous programmez un robot qui doit analyser des échantillons d’eau. Il y a deux façons principales de briser la ligne droite :</description>
     </item>
     <item>
       <title>Exercices</title>
       <link>http://localhost:1313/420-SN1-RE/13-exercices/index.html</link>
       <pubDate>Wed, 21 Jan 2026 10:51:08 -0500</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/13-exercices/index.html</guid>
-      <description>Planification des Exercices - Session 2026 Maxime Fournier Semaine Pages des exercices Numéros des Exercices Semaine 1 p. 27,28 1 à 11 Semaine 2 p. 28 p. 39, 40, 41 p. 45, 46 12, 13 1 à 11&#xA;1 à 6 Semaine 3 p. 59 à 62 1 à 17 Semaine 4 Semaine 5 Semaine 6 Semaine 7 Semaine 8 Semaine 9 Semaine 10 Semaine 11 Semaine 12 Semaine 13 Semaine 14 Semaine 15 Philip Higgins Semaine Pages des exercices Numéros des Exercices Semaine 1 p. 27,28 1 à 11 Semaine 2 p. 28 p. 39, 40, 41 p. 45, 46 12, 13 1 à 11&#xA;1 à 6 Semaine 3 Semaine 4 Semaine 5 Semaine 6 Semaine 7 Semaine 8 Semaine 9 Semaine 10 Semaine 11 Semaine 12 Semaine 13 Semaine 14 Semaine 15</description>
+      <description>Planification des Exercices - Session 2026 Maxime Fournier Semaine Pages des exercices Numéros des Exercices Semaine 1 p. 27,28 1 à 11 Semaine 2 p. 28 p. 39, 40, 41 p. 45, 46 12, 13 1 à 11&#xA;1 à 6 Semaine 3 p. 59 à 62 1 à 17 Semaine 4 Semaine 5 Semaine 6 Semaine 7 Semaine 8 Semaine 9 Semaine 10 Semaine 11 Semaine 12 Semaine 13 Semaine 14 Semaine 15 Philip Higgins Semaine Pages des exercices Numéros des Exercices Semaine 1 p.</description>
     </item>
   </channel>
 </rss>
