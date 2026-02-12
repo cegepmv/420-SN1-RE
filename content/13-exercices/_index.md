@@ -13,7 +13,7 @@ weight = 13
 | **Semaine 1** | p. 27,28 | 1 à 11 |
 | **Semaine 2** |  p. 28 <br> p. 39, 40, 41 <br> p. 45, 46| 12, 13 <br> 1 à 11<br> 1 à 6|
 | **Semaine 3** | p. 59 à 62 | 1 à 17  |
-| **Semaine 4** |  | |
+| **Semaine 4** | p. 71 à 74 | 1 à 13  |
 | **Semaine 5** |  | |
 | **Semaine 6** |  | |
 | **Semaine 7** |  | |
