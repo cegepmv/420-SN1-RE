@@ -15,10 +15,10 @@ weight = 6
 Pour chaque **heure** qui passe (boucle externe)...
 ...les **minutes** doivent faire un tour complet (boucle interne).
 
-{{% fragment %}}
+
 * **Heure 1** : 1min, 2min, ..., 59min.
 * **Heure 2** : 1min, 2min, ..., 59min.
-{{% /fragment %}}
+
 
 
 
