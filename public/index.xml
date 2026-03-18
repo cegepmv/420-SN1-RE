@@ -6,7 +6,7 @@
     <description>Plans de cours 📋 Maxime Fournier : Plan de cours&#xA;📋 Philip Higgins : Plan de cours&#xA;Horaire et disponibilités des enseignants ✔️ Maxime Fournier : Lien vers mon horaire et mes disponibilités&#xA;✔️ Philip Higgins : Lien vers mon horaire et mes disponibilités&#xA;Calendrier des évaluations Nom de l’évaluation Pondération Date de l’évaluation Mini-Test 1 10 % Semaine 4 Examen Intra 25 % Semaine 8 Mini-Test 2 10 % Semaine 11 Projet 25 % Semaine 13-14 Examen Final 30 % ESO</description>
     <generator>Hugo</generator>
     <language>fr-ca</language>
-    <lastBuildDate>Wed, 11 Feb 2026 07:08:50 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 18 Mar 2026 16:20:14 -0400</lastBuildDate>
     <atom:link href="http://localhost:1313/420-SN1-RE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Introduction</title>
@@ -48,7 +48,14 @@
       <link>http://localhost:1313/420-SN1-RE/13-exercices/index.html</link>
       <pubDate>Wed, 21 Jan 2026 10:51:08 -0500</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/13-exercices/index.html</guid>
-      <description>Planification des Exercices - Session 2026 Maxime Fournier Semaine Pages des exercices Numéros des Exercices Semaine 1 p. 27,28 1 à 11 Semaine 2 p. 28 p. 39, 40, 41 p. 45, 46 12, 13 1 à 11&#xA;1 à 6 Semaine 3 p. 59 à 62 1 à 17 Semaine 4 Semaine 5 Semaine 6 Semaine 7 Semaine 8 Semaine 9 Semaine 10 Semaine 11 Semaine 12 Semaine 13 Semaine 14 Semaine 15 Philip Higgins Semaine Pages des exercices Numéros des Exercices Semaine 1 p.</description>
+      <description>Planification des Exercices - Session 2026 Maxime Fournier Semaine Pages des exercices Numéros des Exercices Semaine 1 p. 27,28 1 à 11 Semaine 2 p. 28 p. 39, 40, 41 p. 45, 46 12, 13 1 à 11&#xA;1 à 6 Semaine 3 p. 59 à 62 1 à 17 Semaine 4 p. 71 à 74 1 à 13 Semaine 5 p.90 à 95 1 à 18 Semaine 6 p.110 à 113 1 à 12 Semaine 7 123 à 128 1 à 19 Semaine 8 Semaine 9 Semaine 10 Semaine 11 Semaine 12 Semaine 13 Semaine 14 Semaine 15 Philip Higgins Semaine Pages des exercices Numéros des Exercices Semaine 1 p.</description>
+    </item>
+    <item>
+      <title>Collections De Donnees</title>
+      <link>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/index.html</link>
+      <pubDate>Wed, 18 Mar 2026 16:20:14 -0400</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/index.html</guid>
+      <description>This is a new chapter.</description>
     </item>
   </channel>
 </rss>

@@ -5,6 +5,10 @@
     <lastmod>2026-01-20T11:04:07-05:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/structures_avances/index.html</loc>
+    <lastmod>2026-03-18T16:20:02-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/conditions/index.html</loc>
     <lastmod>2026-02-11T07:05:16-05:00</lastmod>
   </url>
@@ -20,6 +24,10 @@
     <loc>http://localhost:1313/420-SN1-RE/3-fonctions/index.html</loc>
   </url>
   <url>
+    <loc>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/comprehension_liste/index.html</loc>
+    <lastmod>2026-03-18T16:11:58-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/boucles-for/index.html</loc>
     <lastmod>2026-02-11T07:08:17-05:00</lastmod>
   </url>
@@ -31,8 +39,24 @@
     <lastmod>2026-02-11T07:08:33-05:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/boucles_listes/index.html</loc>
+    <lastmod>2026-03-18T16:20:14-04:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/420-SN1-RE/5-structure-de-controle/for-imbrique/index.html</loc>
     <lastmod>2026-02-11T07:08:50-05:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/tuples/index.html</loc>
+    <lastmod>2026-03-18T16:19:32-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/dictionnaires/index.html</loc>
+    <lastmod>2026-03-18T16:11:41-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/listes/index.html</loc>
+    <lastmod>2026-03-18T16:11:48-04:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/1-introduction/ordis/index.html</loc>
@@ -49,6 +73,10 @@
   <url>
     <loc>http://localhost:1313/420-SN1-RE/1-introduction/vscode/index.html</loc>
     <lastmod>2025-08-28T21:15:14-04:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/index.html</loc>
+    <lastmod>2026-03-18T16:20:14-04:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/1-introduction/mon-premier-programme/index.html</loc>
@@ -88,7 +116,7 @@
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/index.html</loc>
-    <lastmod>2026-02-11T07:08:50-05:00</lastmod>
+    <lastmod>2026-03-18T16:20:14-04:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/420-SN1-RE/2-fondamentaux/binaire/erreurs/index.html</loc>

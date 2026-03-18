@@ -41,7 +41,7 @@
       <link>http://localhost:1313/420-SN1-RE/5-structure-de-controle/for-imbrique/index.html</link>
       <pubDate>Wed, 11 Feb 2026 07:08:50 -0500</pubDate>
       <guid>http://localhost:1313/420-SN1-RE/5-structure-de-controle/for-imbrique/index.html</guid>
-      <description>À venir bientôt!</description>
+      <description>Les Boucles Imbriquées 🔄 Comprendre la structure “Boucle dans une boucle” L’Analogie de l’Horloge 🕒 Pour chaque heure qui passe (boucle externe)… …les minutes doivent faire un tour complet (boucle interne).&#xA;Heure 1 : 1min, 2min, …, 59min. Heure 2 : 1min, 2min, …, 59min. Syntaxe en Python 🐍 Le bloc de la boucle interne est indenté à l’intérieur de la boucle externe.&#xA;for i in range(3): # Boucle EXTERNE for j in range(2): # Boucle INTERNE print(f&#34;i:{i}, j:{j}&#34;) Cas concret: traitement d’images En IA et en multimédia, une image est une grille de pixels.</description>
     </item>
   </channel>
 </rss>

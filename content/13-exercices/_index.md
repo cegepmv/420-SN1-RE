@@ -1,7 +1,7 @@
 +++
 date = '2026-01-21T10:51:08-05:00'
 title = 'Exercices'
-weight = 13
+weight = 16
 +++
 
 ### Planification des Exercices - Session 2026

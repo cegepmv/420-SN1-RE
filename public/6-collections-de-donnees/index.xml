@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collections De Donnees :: Introduction à la programmation</title>
+    <link>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/index.html</link>
+    <description>Pourquoi ne pas simplement utiliser des variables ? Jusqu’à présent, nous avons manipulé des données isolées : un âge, une température, un nom. En programmation réelle, on traite rarement les données une par une. On manipule des groupes de données.&#xA;Imaginez que vous gérez un capteur qui prend une mesure par seconde. Au bout d’une heure, vous avez 3600 variables. Créer mesure1, mesure2, … mesure3600 est impossible.&#xA;Les trois piliers des collections en Python Dans ce chapitre, nous allons explorer comment Python structure l’information pour nous faciliter la vie :</description>
+    <generator>Hugo</generator>
+    <language>fr-ca</language>
+    <lastBuildDate>Wed, 18 Mar 2026 16:20:14 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/420-SN1-RE/6-collections-de-donnees/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Listes</title>
+      <link>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/listes/index.html</link>
+      <pubDate>Wed, 18 Mar 2026 16:11:48 -0400</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/listes/index.html</guid>
+      <description>Les Listes : Organiser des séquences de données Jusqu’à présent, nous avons utilisé des variables simples pour stocker une seule valeur (ex: population = 100). Mais comment gérer 1000 mesures de température ou une liste de noms d’étudiants ?&#xA;C’est là qu’interviennent les listes. Une liste est un conteneur qui peut contenir plusieurs éléments, ordonnés, que l’on peut modifier à volonté.&#xA;Création et accès : Le système d’index En Python, on crée une liste avec des crochets [].</description>
+    </item>
+    <item>
+      <title>Boucles_listes</title>
+      <link>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/boucles_listes/index.html</link>
+      <pubDate>Wed, 18 Mar 2026 16:20:14 -0400</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/boucles_listes/index.html</guid>
+      <description>Parcourir les données : Deux méthodes, deux styles Pour traiter chaque élément d’une liste, il existe deux philosophies en Python. Imaginez que vous devez vérifier la température de 5 éprouvettes alignées sur un présentoir.&#xA;Méthode A : L’index (Le “Où”) On utilise range(len(liste)) pour obtenir les numéros de position. C’est précis, mais plus lourd à écrire.&#xA;Méthode B : L’itération directe (Le “Quoi”) On demande à Python de nous donner directement l’objet.</description>
+    </item>
+    <item>
+      <title>Dictionnaires</title>
+      <link>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/dictionnaires/index.html</link>
+      <pubDate>Wed, 18 Mar 2026 16:11:41 -0400</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/dictionnaires/index.html</guid>
+      <description>8. Les Dictionnaires : Organiser par étiquettes Si la liste est une file d’attente (on accède par la position), le dictionnaire est un classeur (on accède par une étiquette). Au lieu d’un numéro d’index (0, 1, 2…), on utilise une clé pour retrouver une valeur.&#xA;C’est la structure de base derrière presque tout le Web (JSON).&#xA;Création et accès : Le duo Clé-Valeur On utilise des accolades {} et le symbole : pour lier une clé à sa valeur.</description>
+    </item>
+    <item>
+      <title>Tuples</title>
+      <link>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/tuples/index.html</link>
+      <pubDate>Wed, 18 Mar 2026 16:19:32 -0400</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/tuples/index.html</guid>
+      <description>10. Les structures immuables : Sécuriser ses données Contrairement aux listes que l’on peut modifier à l’infini (.append, .pop, etc.), Python propose des structures “en lecture seule”. Une fois créées, on ne peut plus changer leur contenu.&#xA;1. Le Tuple : Une liste figée On crée un tuple avec des parenthèses (). C’est l’outil idéal pour stocker des constantes ou des coordonnées qui ne doivent pas bouger.&#xA;# Coordonnées GPS d&#39;un laboratoire position = (45.</description>
+    </item>
+    <item>
+      <title>Comprehension_liste</title>
+      <link>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/comprehension_liste/index.html</link>
+      <pubDate>Wed, 18 Mar 2026 16:11:58 -0400</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/comprehension_liste/index.html</guid>
+      <description>12. Les Compréhensions de listes : Puissance et Statistiques (matière avancée) La compréhension de liste est la manière “experte” de créer des listes en Python. Elle permet de transformer une séquence en une seule ligne, en suivant une logique qui ressemble beaucoup à la notation mathématique des ensembles :&#xA;$$S = \{ f(x) \mid x \in \text{Données} \}$$ En mots simples, on transforme chaque donnée dans la collection avec la même règle et on en fait une nouvelle collection.</description>
+    </item>
+    <item>
+      <title>Structures_avances</title>
+      <link>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/structures_avances/index.html</link>
+      <pubDate>Wed, 18 Mar 2026 16:20:02 -0400</pubDate>
+      <guid>http://localhost:1313/420-SN1-RE/6-collections-de-donnees/structures_avances/index.html</guid>
+      <description>1. Les Ensembles (set) : La théorie des ensembles en code Un set est une collection non ordonnée d’éléments uniques. Si vous essayez d’ajouter deux fois la même chose, le set l’ignore.&#xA;Pourquoi l’utiliser ? Pour éliminer les doublons instantanément. mesures = [10, 20, 10, 30, 20, 50] uniques = set(mesures) # Résultat : {10, 20, 30, 50} (Magie : plus de doublons !) # Opérations mathématiques éclair groupe_A = {&#34;Analyse&#34;, &#34;Algebre&#34;, &#34;Stats&#34;} groupe_B = {&#34;Stats&#34;, &#34;Programmation&#34;, &#34;Reseaux&#34;} # Qui fait les deux ?</description>
+    </item>
+  </channel>
+</rss>
