@@ -2,7 +2,7 @@
 title = "Structure De Controle"
 type = "chapter"
 draft = false
-weight = 13
+weight = 5
 +++
 
 Jusqu'à présent, vos programmes Python étaient **linéaires** : l'ordinateur exécutait la ligne 1, puis la 2, puis la 3, du haut vers le bas, sans jamais se poser de questions.

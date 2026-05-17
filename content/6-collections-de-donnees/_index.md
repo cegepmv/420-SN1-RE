@@ -2,7 +2,7 @@
 title = "Collections De Donnees"
 type = "chapter"
 draft = false
-weight = 14
+weight = 6
 +++
 ## Pourquoi ne pas simplement utiliser des variables ?
 
